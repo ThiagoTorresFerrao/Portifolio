@@ -1,0 +1,7 @@
+Sou um estudioso nato, movido pela curiosidade e pela vontade constante de aprender. Tenho uma carreira consolidada como desenvolvedor front-end, com profundo conhecimento técnico em JavaScript e nas principais tecnologias relacionadas ao ecossistema front-end, como HTML, CSS, React, Vite e ferramentas modernas de desenvolvimento web. Minha paixão por tecnologia começou ainda na infância, e desde então venho acumulando conhecimentos em diversas áreas, não apenas na minha profissão.
+
+Ao longo dos anos, construí uma base sólida em programação, estudando intensamente por meio de cursos online, como os da Alura e do Curso em Vídeo, além de experiências práticas em projetos próprios e profissionais. Minha trajetória também inclui experiências com supervisão, design web e infraestrutura, o que me torna um profissional versátil e com visão ampla de projetos.
+
+Fora do ambiente profissional, sou pai de dois filhos, marceneiro e músico por hobby, sempre equilibrando o lado técnico com a criatividade e o senso estético. Tenho conhecimentos diversos em áreas como eletrônica, montagem de computadores, automação e muito mais. Aprender é parte da minha rotina, mesmo quando o assunto foge da minha área principal — e é isso que me torna um profissional completo e sempre em evolução.
+
+Objetivo: Continuar crescendo na área de desenvolvimento front-end, contribuindo com soluções modernas e eficientes, e sempre me desafiando a aprender algo novo todos os dias.
