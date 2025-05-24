@@ -31,3 +31,6 @@ Objetivo: Continuar crescendo na área de desenvolvimento front-end, contribuind
 [Instagram](https://www.instagram.com/thiagotorresferrao/)
 
 [YouTube](https://www.youtube.com/@Thiago_Torres)
+
+
+Portifolio\Portifólio _ Thiago_arquivos\img_port.jpg
