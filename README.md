@@ -1,5 +1,7 @@
 [Portifólio - Click here](https://thiagotorresferrao.github.io/Portifolio/)
 
+*** incomplete, work in progress ***
+
 EN-US
 
 I am a natural learner, driven by curiosity and a constant desire to grow. I have a solid career as a front-end developer, with deep technical knowledge in JavaScript and the main technologies related to the front-end ecosystem, such as HTML, CSS, React, Vite, and modern web development tools. My passion for technology began in childhood, and since then, I’ve been accumulating knowledge in various areas—not just within my profession.
