@@ -31,6 +31,22 @@
   --z-fixed: 100;
 }
 
+/* === Estilo para as bandeiras de idioma no topo === */
+.language-switch {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 1000;
+}
+
+.language-switch button {
+  font-size: 20px;
+  margin-left: 5px;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
 /*========== Responsive typography ==========*/
 @media screen and (min-width: 1152px) {
   :root {

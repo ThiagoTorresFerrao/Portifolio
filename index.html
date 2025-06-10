@@ -6,11 +6,16 @@
       <link rel="shortcut icon" href="Portif%C3%B3lio%20_%20Thiago_arquivos/favicon.ico" type="image/x-icon">
       <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
       <link rel="stylesheet" href="Portif%C3%B3lio%20_%20Thiago_arquivos/style.css">
-      <title>Portifólio | Thiago</title>
+      <title data-translate="title">Portifólio | Thiago</title>
    </head>
 
    <body>
       <!--==================== HEADER ====================-->
+        <div class="language-switch">
+        <button onclick="setLanguage('pt')">🇧🇷</button>
+        <button onclick="setLanguage('en')">🇺🇸</button>
+        </div>
+
       <header class="header" id="header">
          <nav class="nav container">
             <a href="#" class="nav__logo">
@@ -19,19 +24,19 @@
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
                     <li class="nav__item">
-                        <a href="#home" class="nav__link">Início</a>
+                        <a href="#home" class="nav__link" data-translate="inicio">Início</a>
                     </li>
                     <li class="nav__item">
-                        <a href="#about" class="nav__link">Sobre</a>
+                        <a href="#about" class="nav__link" data-translate="sobre">Sobre</a>
                     </li>
                     <li class="nav__item">
-                        <a href="#services" class="nav__link">Serviços</a>
+                        <a href="#services" class="nav__link" data-translate="servicos">Serviços</a>
                     </li>
                     <li class="nav__item">
-                        <a href="#projects" class="nav__link">Projetos</a>
+                        <a href="#projects" class="nav__link" data-translate="projetos">Projetos</a>
                     </li>
                     <li class="nav__item">
-                        <a href="#contact" class="nav__link">Contato</a>
+                        <a href="#contact" class="nav__link" data-translate="contato">Contato</a>
                     </li>
                 </ul>
                 <div class="nav__close" id="nav-close">
@@ -51,13 +56,13 @@
             <div class="home__container container grid">
                 <div class="home__content">
                     <div class="home__data">
-                        <h3 class="home__sobtitle">
+                        <h3 class="home__sobtitle" data-translate="hello">
                             Olá, <span>Eu sou o</span>
                         </h3>
                         <h1 class="home__title">Thiago Torres </h1>
-                        <h3 class="home__education">Desenvolvedor Front-End</h3>
-                        <p class="home__description">Com um sólido conhecimento em desenvolvimento web e uma paixão por criar soluções digitais inovadoras, dedico-me a entregar projetos de alta qualidade, cuidadosamente planejados e executados para atender às necessidades e expectativas de cada cliente, garantindo resultados que combinam excelência técnica, funcionalidade e design atrativo..</p>
-                        <a href="#contact" class="button">Vamos Conversar</a>
+                        <h3 class="home__education" data-translate="role" >Desenvolvedor Front-End</h3>
+                        <p class="home__description"data-translate="description">Com um sólido conhecimento em desenvolvimento web e uma paixão por criar soluções digitais inovadoras, dedico-me a entregar projetos de alta qualidade, cuidadosamente planejados e executados para atender às necessidades e expectativas de cada cliente, garantindo resultados que combinam excelência técnica, funcionalidade e design atrativo.</p>
+                        <a href="#contact" class="button"data-translate="letsTalk">Vamos Conversar</a>
                     </div>
                     <div class="home__social">
                        
@@ -382,6 +387,6 @@ consumindo APIs e realizando integrações com serviços externos.
       <script type="text/javascript" src="Portif%C3%B3lio%20_%20Thiago_arquivos/email.min.js"></script>
 
       <!--=============== MAIN JS ===============-->
-       <!--=============== <script src="/js/script.js"></script>   ===============-->
-   
+      <!--=============== <script src="/js/script.js"></script>   ===============-->
+   <script src="Portifólio _ Thiago_arquivos/lang.js"></script>
 </body></html>
