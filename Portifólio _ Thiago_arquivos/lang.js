@@ -10,9 +10,11 @@ const translations = {
     role: "Desenvolvedor Front-End",
     description: "Com um sólido conhecimento em desenvolvimento web e uma paixão por criar soluções digitais inovadoras, dedico-me a entregar projetos de alta qualidade, cuidadosamente planejados e executados para atender às necessidades e expectativas de cada cliente, garantindo resultados que combinam excelência técnica, funcionalidade e design atrativo.",
     letsTalk: "Vamos Conversar",
-    aboutTitle: "Sobre mim",
-    aboutText: "Olá, me chamo Thiago Torres. Estou cursando Análise e Desenvolvimento de Sistemas, estudando tecnologias como HTML, CSS, JavaScript e React. Estou em transição de carreira, então meus projetos são estudos práticos publicados no GitHub. Estou sempre aprendendo e evoluindo com novas ferramentas e frameworks.",
+    introMe: "Minha <span>introdução</span>",
+    aboutTitle: "Sobre mim", 
+    aboutText: "Olá, me chamo Thiago Torres, gostaria de compartilhar com você alguns dos meus projetos que finalizei recentemente. Atualmente estou cursando uma faculdade e alguns cursos com algumas linguagens de programação que estão em alta no momento HTML, CSS, JavaScript e React. Estou em transição de carreira então esses projetos são apenas estudos, em meu github contém mais alguns projetos para complementar.  Estou sempre aprimorando meus conhecimentos em frameworks e bibliotecas modernas.",
     contactMe: "Fale comigo",
+    favSkills: "Skills favoritas",
     skillsTitle: "Minhas Skills",
     skillsText: "Veja minhas principais habilidades para desenvolver projetos de forma moderna e eficaz.",
     frameworksLibs: "Frameworks e Bibliotecas",
@@ -47,9 +49,11 @@ const translations = {
     role: "Front-End Developer",
     description: "With a solid knowledge of web development and a passion for creating innovative digital solutions, I am dedicated to delivering high-quality projects that are carefully planned and executed to meet each client's needs and expectations, ensuring results that combine technical excellence, functionality, and attractive design.",
     letsTalk: "Let's Talk",
+    introMe: "My <span>introduction</span>",
     aboutTitle: "About Me",
-    aboutText: "Hi, my name is Thiago Torres. I'm studying Systems Analysis and Development, learning technologies like HTML, CSS, JavaScript and React. I'm transitioning careers, so my projects are practical studies published on GitHub. I'm always learning and evolving with new tools and frameworks.",
+    aboutText: "Hello, my name is Thiago Torres. I’d like to share with you some of the projects I’ve recently completed. I’m currently attending university and taking courses in some of the most popular programming languages right now, including HTML, CSS, JavaScript, and React. I’m going through a career transition, so these projects are primarily for learning purposes. You can find additional projects on my GitHub to complement these. I’m always improving my skills in modern frameworks and libraries.",
     contactMe: "Contact Me",
+    favSkills: "Favorite skills",
     skillsTitle: "My Skills",
     skillsText: "Check out my main skills to develop modern and efficient projects.",
     frameworksLibs: "Frameworks and Libraries",
@@ -79,7 +83,11 @@ function setLanguage(lang) {
   document.querySelectorAll('[data-translate]').forEach(el => {
     const key = el.getAttribute('data-translate');
     if (translations[lang] && translations[lang][key]) {
-      el.textContent = translations[lang][key];
+      if(key === 'introMe') {
+        el.innerHTML = translations[lang][key];  // usar innerHTML aqui para preservar <span>
+      } else {
+        el.textContent = translations[lang][key];
+      }
     }
   });
 
@@ -89,7 +97,10 @@ function setLanguage(lang) {
       el.placeholder = translations[lang][key];
     }
   });
-
-  // Atualiza o título da aba também
+    // Atualiza o titulo da aba
   document.title = translations[lang].title;
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+  setLanguage('pt'); // define idioma padrão ao carregar página
+});
