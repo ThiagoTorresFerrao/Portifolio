@@ -2,14 +2,14 @@
 
 :root {
   --header-height: 3.5rem;
-  /* For more colors: https://colors.dopely.top/color-pedia */
+  /* lembrete do link das cores: https://colors.dopely.top/color-pedia */
 
   --hue: 291;
-  --first-color:  hsl(212, 100%, 47%);
-  --first-color-alt:  hsl(197, 96%, 47%);
+  --first-color:  #0070f0;
+  --first-color-alt:  #05aaeb;
   --title-color: hsl(186, 63%, 97%);
   --text-color: rgb(249, 250, 252);
-  --body-color: hsl(230, 6%, 19%);
+  --body-color: #2e2f33;
   --container-color: hsl(0, 0%, 3%);
 
   /*.5rem = 8px | 1rem = 16px ...*/

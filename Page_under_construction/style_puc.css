@@ -1,0 +1,143 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    background-color: #000;
+    color: #0070f0;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    text-align: center;
+}
+
+/* Cabeça do robô */
+.robot {
+    margin-bottom: 10px;
+    display: inline-block;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.head {
+    margin-left: 35px;
+    margin-bottom: 10px;
+    width: 240px;
+    height: 200px;
+    background: #222;
+    border-radius: 15px 15px 8px 8px;
+    position: relative;
+    border: 3px solid #0070f0;
+}
+
+.eye {
+    width: 30px;
+    height: 30px;
+    background: #0070f0;
+    border-radius: 50%;
+    position: absolute;
+    top: 25px;
+    box-shadow: 0 0 10px #05aaeb;
+}
+
+.eye.left {
+    left: 20px;
+}
+
+.eye.right {
+    right: 20px;
+}
+
+.mouth {
+    width: 130px;
+    height: 10px;
+    background: #0070f0;
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 3px;
+    box-shadow: 0 0 15px #05aaeb;
+}
+
+/* Corpo */
+.body {
+    width: 320px;
+    height: 270px;
+    background: #111;
+    border: 3px solid #0070f0;
+    border-radius: 15px;
+    margin: 0 auto;
+    position: relative;
+    box-shadow: 0 0 20px #05aaeb;
+}
+
+.screen {
+    width: 280px;
+    height: 230px;
+    margin: 15px auto;
+    background: #030;
+    border-radius: 5px;
+    border: 2px solid #0070f0;
+    box-shadow: inset 0 0 10px #05aaeb;
+    overflow: hidden;
+    padding: 10px;
+    color: #0070f0;
+    font-size: 14px;
+    text-align: left;
+    white-space: pre-wrap;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Braços */
+.arm {
+    width: 100px;
+    height: 240px;
+    background: #222;
+    border: 3px solid #0070f0;
+    border-radius: 10px;
+    position: absolute;
+    top: 60px;
+    box-shadow: 0 0 10px #05aaeb;
+    animation: typingArm 1.5s infinite alternate ease-in-out;
+}
+
+.arm.left {
+    left: -105px;
+    top: 210px;
+    transform-origin: top right;
+    animation-delay: 0s;
+}
+
+.arm.right {
+    right: -112px;
+    top: 200px;
+    transform-origin: top left;
+    animation-delay: 0.75s;
+}
+
+@keyframes typingArm {
+    0% {
+        transform: rotate(10deg);
+    }
+    100% {
+        transform: rotate(35deg);
+    }
+}
+
+/* Título */
+h1 {
+    font-size: 2rem;
+    color: #0070f0;
+    text-shadow: 0 0 5px #05aaeb;
+    font-weight: normal;
+}
