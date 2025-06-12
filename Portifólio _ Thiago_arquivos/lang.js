@@ -19,6 +19,7 @@ const translations = {
     skillsText: "Veja minhas principais habilidades para desenvolver projetos de forma moderna e eficaz.",
     frameworksLibs: "Frameworks e \nBibliotecas",
     seproj: "Ver projetos",
+    mySer: "Meus serviços", // span não está funcionando verificar posteriormente //
     servicesTitle: "O que eu faço",
     service1: "Desenvolvimento de páginas web modernas e responsivas.",
     service2: "Resolução de problemas, correção de bugs e testes.",
@@ -59,6 +60,7 @@ const translations = {
     skillsText: "Check out my main skills to develop modern and efficient projects.",
     frameworksLibs: "Frameworks and \nLibraries",
     seproj: "See projects",
+    mySer: "My services", // span não está funcionando verificar posteriormente //
     servicesTitle: "What I Do",
     service1: "Modern and responsive web development.",
     service2: "Problem-solving, bug fixing and testing.",
