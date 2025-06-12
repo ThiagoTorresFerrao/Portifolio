@@ -21,9 +21,13 @@ const translations = {
     seproj: "Ver projetos",
     mySer: "Meus serviços", // span não está funcionando verificar posteriormente //
     servicesTitle: "O que eu faço",
-    service1: "Desenvolvimento de páginas web modernas e responsivas.",
-    service2: "Resolução de problemas, correção de bugs e testes.",
-    service3: "Integrações com APIs e bibliotecas modernas.",
+    titleserv1: "Desenvolvimento Front-End",
+    service1: "Desenvolvimento de páginas Web personalizadas. Utilizando as tecnologias mais recentes e bibliotecas do campo de trabalho.",
+    titleserv2: "Resolução de Problemas",
+    service2: "Apto a solucionar bugs, realizar testes e depurar o código para garantir o bom funcionamento das interfaces.",
+    titleserv3: "Frameworks e Bibliotecas",
+    service3: "Tenho conhecimento em desenvolver aplicações consumindo APIs e realizando integrações com serviços externos.",
+    myWor: "Meus trabalhos", // span não está funcionando verificar posteriormente //
     projectsTitle: "Projetos recentes",
     projectsText: "Confira alguns dos meus projetos mais recentes:",
     project1: "Réplica do Twitter",
@@ -62,9 +66,13 @@ const translations = {
     seproj: "See projects",
     mySer: "My services", // span não está funcionando verificar posteriormente //
     servicesTitle: "What I Do",
-    service1: "Modern and responsive web development.",
-    service2: "Problem-solving, bug fixing and testing.",
-    service3: "Integrations with APIs and modern libraries.",
+    titleserv1: "Front-End Development",
+    service1: "Development of custom web pages, using the latest technologies and libraries in the field.",
+    titleserv2: "Problem solving",
+    service2: "Skilled in fixing bugs, performing tests, and debugging code to ensure the proper functioning of interfaces.",
+    titleserv3: "Frameworks and Libraries",
+    service3: "I have experience developing applications that consume APIs and integrate with external services.",
+    myWor: "My Projects", // span não está funcionando verificar posteriormente //
     projectsTitle: "Recent Projects",
     projectsText: "Check out some of my latest projects:",
     project1: "Twitter Clone",
