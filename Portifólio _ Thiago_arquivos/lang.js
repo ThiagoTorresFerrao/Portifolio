@@ -1,4 +1,6 @@
 const translations = {
+
+      // Texto em portugues 
   pt: {
     title: "Portifólio | Thiago",
     inicio: "Início",
@@ -44,6 +46,7 @@ const translations = {
     footerRole: "Desenvolvedor Front-End",
     rights: "Todos os direitos reservados © 2025"
   },
+      // Texto em inglês
   en: {
     title: "Portfolio | Thiago",
     inicio: "Home",

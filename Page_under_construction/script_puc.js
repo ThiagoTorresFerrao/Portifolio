@@ -1,5 +1,6 @@
 const codeElement = document.getElementById('code');
 
+            // Mensagem no interior do robo.
 const codeLines = [
     "// By Thiago Torres",
     "function helloWorld() {",
