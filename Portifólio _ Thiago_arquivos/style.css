@@ -34,8 +34,8 @@
 /* === Estilo para as bandeiras de idioma no topo === */
 .language-switch {
   position: fixed;
-  top: 10px;
-  right: 40px; /* era 10px coloquei 40 para testes*/
+  top: 15px;    /* era 10px coloquei 15 para testes*/
+  right: 60px; /* era 10px coloquei 60 para testes*/
   z-index: 1000;
 }
 
