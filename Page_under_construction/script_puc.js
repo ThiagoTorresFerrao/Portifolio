@@ -47,3 +47,13 @@ function type() {
 }
 
 type();
+
+        // Função para voltar a página
+document.addEventListener("DOMContentLoaded", () => {
+  const backButton = document.getElementById("backButton");
+  if (backButton) {
+    backButton.addEventListener("click", () => {
+      history.back();
+    });
+  }
+});
