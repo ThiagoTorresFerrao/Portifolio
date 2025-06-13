@@ -32,6 +32,7 @@ const translations = {
     myWor: "Meus trabalhos", // span não está funcionando verificar posteriormente //
     projectsTitle: "Projetos recentes",
     projectsText: "Confira alguns dos meus projetos mais recentes:",
+    seeLink:"Ver",
     project1: "Réplica do Twitter",
     project2: "Site de Barbearia",
     project3: "App de Filmes",
@@ -78,6 +79,7 @@ const translations = {
     myWor: "My Projects", // span não está funcionando verificar posteriormente //
     projectsTitle: "Recent Projects",
     projectsText: "Check out some of my latest projects:",
+    seeLink:"Look",
     project1: "Twitter Clone",
     project2: "Barbershop Website",
     project3: "Movie App",

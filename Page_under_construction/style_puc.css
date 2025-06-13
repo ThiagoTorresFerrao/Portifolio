@@ -5,6 +5,23 @@
     box-sizing: border-box;
 }
 
+.back-button {
+  background-color: #0070f0;      /* cor de fundo do botão*/
+  color: white;                   /* cor do texto */
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 20px; /* espaçamento do topo ou laterais */
+}
+
+.back-button:hover {
+  background-color: #05aaeb;     /* cor ao passar o mouse */
+}
+
 body, html {
     height: 100%;
     background-color: #000;
