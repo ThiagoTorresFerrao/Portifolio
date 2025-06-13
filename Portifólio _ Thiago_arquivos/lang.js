@@ -43,6 +43,7 @@ const translations = {
     namePlaceholder: "Seu nome",
     emailPlaceholder: "Seu e-mail",
     messagePlaceholder: "Sua mensagem",
+    msgSend: "Mensagem",
     sendMessage: "Enviar mensagem",
     footerRole: "Desenvolvedor Front-End",
     rights: "Todos os direitos reservados © 2025"
@@ -89,6 +90,7 @@ const translations = {
     contactTitle: "Get in Touch",
     namePlaceholder: "Your name",
     emailPlaceholder: "Your email",
+    msgSend: "Message",
     messagePlaceholder: "Your message",
     sendMessage: "Send Message",
     footerRole: "Front-End Developer",
