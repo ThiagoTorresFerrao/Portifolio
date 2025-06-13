@@ -158,3 +158,59 @@ h1 {
     text-shadow: 0 0 5px #05aaeb;
     font-weight: normal;
 }
+
+/* adaptar para dispositivos mobile */
+@media screen and (max-width: 600px) {
+  .head {
+    width: 180px;
+    height: 140px;
+  }
+
+  .eye {
+    width: 20px;
+    height: 20px;
+    top: 20px;
+  }
+
+  .mouth {
+    width: 80px;
+    height: 8px;
+  }
+
+  .body {
+    width: 240px;
+    height: 200px;
+  }
+
+  .screen {
+    width: 200px;
+    height: 160px;
+    font-size: 12px;
+  }
+
+  .arm {
+    width: 40px;
+    height: 140px;
+    top: 40px;
+    box-shadow: 0 0 5px #05aaeb;
+  }
+
+  .arm.left {
+    left: -45px;
+    top: 150px;
+  }
+
+  .arm.right {
+    right: -48px;
+    top: 150px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .back-button {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+}
