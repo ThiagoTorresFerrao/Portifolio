@@ -264,6 +264,11 @@ svg {
 /*=============== HOME ===============*/
 .home {
   background-color: var(--container-color);
+  background-image: url('img/bg.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .home__container {
@@ -374,6 +379,11 @@ svg {
 /*=============== SKILLS ===============*/
 .skills {
   background-color: var(--container-color);
+  background-image: url('img/bg.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .skills__container {
@@ -449,6 +459,11 @@ svg {
 /*=============== PROJECTS ===============*/
 .projects {
   background-color: var(--container-color);
+  background-image: url('img/bg.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .projects__container {
@@ -908,5 +923,65 @@ svg {
 
   .scrollup {
     right: 3rem;
+  }
+}
+
+/*===== Animação perfil =====*/
+
+@keyframes fadeInScaleFloat {
+  0% {
+    opacity: 0;
+    transform: scale(0.8) translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-12px);
+  }
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    filter: drop-shadow(0 0 6px #05aaff) drop-shadow(0 0 12px #05aaff);
+    stroke-opacity: 0.6;
+  }
+  50% {
+    filter: drop-shadow(0 0 18px #05aaff) drop-shadow(0 0 30px #05aaff);
+    stroke-opacity: 1;
+  }
+}
+
+/* Container para aplicar entrada + flutuação */
+.home__blob-container {
+  width: 420px;  /* antes 320px, aumentei para 380px */
+  margin-left: 7rem; /* mantém se quiser afastar do lado esquerdo */
+  animation: fadeInScaleFloat 1.2s ease forwards, float 4s ease-in-out infinite;
+  transform-origin: center;
+  display: block;
+}
+
+/* O path do brilho */
+.home__glow-path {
+  fill: none;
+  stroke: #05aaff; /* cor do brilho - pode mudar */
+  stroke-width: 10;
+  animation: pulseGlow 3.5s ease-in-out infinite;
+  transform-origin: center;
+  pointer-events: none; /* para não atrapalhar interação */
+}
+
+@media screen and (max-width: 768px) {
+  .home__blob-container {
+    margin-left: 0;
+    margin: 0 auto;
+    display: block;
   }
 }
