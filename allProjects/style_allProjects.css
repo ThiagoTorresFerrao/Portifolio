@@ -97,7 +97,7 @@ header h1 {
 footer {
   margin-top: 30px;
   padding-top: 20px;
-  background-color: var(--container-color);
+  background-color: hsl(0, 0%, 3%);
   color: #ffffff;
 }
 
@@ -120,7 +120,7 @@ footer {
 }
 
 .footer__title span {
-  color: var(--first-color);
+  color: #0070f0;
 }
 
 .footer__education {
@@ -137,7 +137,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #0070f0;
+  background-color: #05aaeb;
   padding: 0.5rem;
   color: hsl(186, 63%, 97%);;
   font-size: 1.5rem;
@@ -147,7 +147,6 @@ footer {
 
 .footer__social-link:hover {
   transform: translateY(-0.25rem);
-  background-color: #05aaeb;
   color: white;
 }
 
