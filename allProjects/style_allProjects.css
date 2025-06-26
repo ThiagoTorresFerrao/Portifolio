@@ -12,16 +12,19 @@
   box-sizing: border-box;
 }
 
-body, html {
+html, body {
   height: 100%;
+  margin: 0;
+  padding: 0;
   font-family: Arial, sans-serif;
   background: url("../Portifólio _ Thiago_arquivos/img/bg.jpg") center center / cover no-repeat fixed;
   color: #ffffff;
+  display: flex;
+  flex-direction: column;
 }
 
 /* ========== CONTAINER ========== */
 .container {
-  background-color: rgba(0, 0, 0, 0.7);
   min-height: 100vh;
   padding: 20px;
   display: flex;
