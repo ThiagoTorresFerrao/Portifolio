@@ -985,3 +985,16 @@ svg {
     display: block;
   }
 }
+
+.projects__all-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.projects__all-button-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
