@@ -998,3 +998,27 @@ svg {
   margin-top: 2rem;
 }
 
+/*=====botão all projects pulsando =======*/
+
+@keyframes pulse-glow {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 hsla(var(--hue), 100%, 60%, 0.7);
+    filter: brightness(1);
+  }
+  50% {
+    transform: scale(1.08);
+    box-shadow: 0 0 15px 5px hsla(var(--hue), 100%, 60%, 0.6);
+    filter: brightness(1.2);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 hsla(var(--hue), 100%, 60%, 0);
+    filter: brightness(1);
+  }
+}
+
+.button--pulse {
+  animation: pulse-glow 2s infinite;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
