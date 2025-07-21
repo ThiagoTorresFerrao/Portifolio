@@ -1,6 +1,6 @@
 [Portifólio - Click here](https://thiagotorresferrao.github.io/Portifolio/)
 
-*** incomplete, work in progress ***
+*** incomplete, infinite work in progress ***
 
 EN-US
 
