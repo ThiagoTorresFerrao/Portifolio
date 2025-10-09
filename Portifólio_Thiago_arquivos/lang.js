@@ -46,6 +46,7 @@ const translations = {
     messagePlaceholder: "Sua mensagem",
     msgSend: "Mensagem",
     sendMessage: "Enviar mensagem",
+    qrcodemsg: "Escaneie o QR Code para me chamar no WhatsApp",
     footerRole: "Desenvolvedor Full-stack",
     rights: "Todos os direitos reservados © 2025"
   },
@@ -95,6 +96,7 @@ const translations = {
     msgSend: "Message",
     messagePlaceholder: "Your message",
     sendMessage: "Send Message",
+    qrcodemsg: "Scan the QR Code to call me on WhatsApp",
     footerRole: "Full-stack Developer",
     rights: "All rights reserved © 2025"
   }
