@@ -1108,7 +1108,7 @@ svg {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  background-color: #25d366;
+  background-color: var(--first-color);
   color: #fff;
   border-radius: 2rem;
   padding: 0.75rem 1.5rem;
@@ -1117,6 +1117,6 @@ svg {
 }
 
 .whatsapp__button:hover {
-  background-color: #1ebe5d;
+  background-color: var(--first-color-alt);
   transform: translateY(-2px);
 }
