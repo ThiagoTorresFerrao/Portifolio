@@ -90,19 +90,19 @@ Neste portfólio, ele apresenta seus principais **projetos, experiências e traj
 
 3. Abra o arquivo index.html no navegador.
 
-
+---
 
 📬 Contact | Contato
 
-📧 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:thiago.guitarrista@bol.com.br)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:thiago.guitarrista@bol.com.br)
 
-💼 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/thiagotorresferrao)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/thiagotorresferrao)
 
-🐙 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ThiagoTorresFerrao)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ThiagoTorresFerrao)
 
-📸 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/thiagotorresferrao/)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/thiagotorresferrao/)
 
-▶️ [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@Thiago_Torres)
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@Thiago_Torres)
 
 
 Sinta-se à vontade para entrar em contato para colaborações, oportunidades ou apenas um bate-papo sobre tecnologia.
@@ -120,6 +120,7 @@ This project is licensed under the MIT License.
 "Technology is not just my job — it's my passion since childhood."
 “A tecnologia não é apenas meu trabalho — é minha paixão desde a infância.”
 
+---
 
 *** incomplete, infinite work in progress ***
 
@@ -146,13 +147,3 @@ Ao longo dos anos, construí uma base sólida em programação, estudando intens
 Fora do ambiente profissional, sou pai de dois filhos, marceneiro e músico por hobby, sempre equilibrando o lado técnico com a criatividade e o senso estético. Tenho conhecimentos diversos em áreas como eletrônica, montagem de computadores, automação e muito mais. Aprender é parte da minha rotina, mesmo quando o assunto foge da minha área principal — e é isso que me torna um profissional completo e sempre em evolução.
 
 Objetivo: Continuar crescendo na área de desenvolvimento front-end, contribuindo com soluções modernas e eficientes, e sempre me desafiando a aprender algo novo todos os dias.
-
-
-
-[Linkedin](https://www.linkedin.com/in/thiago-f-torres/)
-
-[Github](https://github.com/ThiagoTorresFerrao)
-
-[Instagram](https://www.instagram.com/thiagotorresferrao/)
-
-[YouTube](https://www.youtube.com/@Thiago_Torres)
