@@ -68,6 +68,7 @@ Neste portfólio, ele apresenta seus principais **projetos, experiências e traj
 ├── menu.js
 └── README.md
 
+
 ---
 
 ## 🚀 Live Preview | Demonstração
@@ -93,16 +94,15 @@ Neste portfólio, ele apresenta seus principais **projetos, experiências e traj
 
 📬 Contact | Contato
 
-📧 Email: contato@thiagotorres.dev
+📧 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:thiago.guitarrista@bol.com.br)
 
-💼 LinkedIn: linkedin.com/in/thiagotorresferrao
+💼 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/thiagotorresferrao)
 
-🐙 GitHub: github.com/ThiagoTorresFerrao
+🐙 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ThiagoTorresFerrao)
 
-[Instagram](https://www.instagram.com/thiagotorresferrao/)
+📸 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/thiagotorresferrao/)
 
-[YouTube](https://www.youtube.com/@Thiago_Torres)
-
+▶️ [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@Thiago_Torres)
 
 
 Sinta-se à vontade para entrar em contato para colaborações, oportunidades ou apenas um bate-papo sobre tecnologia.
@@ -113,6 +113,7 @@ Feel free to reach out for collaborations, job opportunities, or just to talk ab
 Este projeto está sob a licença MIT.
 
 This project is licensed under the MIT License.
+
 
 💬 Quote | Citação
 
