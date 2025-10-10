@@ -1,4 +1,124 @@
-[Portifólio - Click here](https://thiagotorresferrao.github.io/Portifolio/)
+# 🌐 Thiago Torres – Full Stack Developer Portfolio
+
+> 🚀 A personal website showcasing my skills, projects, and passion for technology.  
+> 🌍 Um portfólio pessoal que apresenta minhas habilidades, projetos e paixão por tecnologia.
+
+---
+
+## 🧑‍💻 About | Sobre
+
+**Thiago Torres** é um desenvolvedor **Full Stack** apaixonado por tecnologia desde criança, com sólida experiência em **HTML, CSS, JavaScript, C#, Node.js, React e muito mais**.  
+Neste portfólio, ele apresenta seus principais **projetos, experiências e trajetória profissional**, com um design moderno e totalmente **responsivo**.
+
+> **Thiago Torres** is a **Full Stack Developer** passionate about technology since childhood, experienced in **HTML, CSS, JavaScript, C#, Node.js, React**, and more.  
+> This portfolio showcases his main **projects, experience, and career path**, built with a modern and fully **responsive design**.
+
+---
+
+## 🎨 Features | Recursos
+
+✨ Interface moderna e responsiva  
+🌍 Suporte bilíngue (Português 🇧🇷 / Inglês 🇺🇸)  
+📱 Layout adaptável para mobile e desktop  
+🧩 Estrutura organizada e de fácil manutenção  
+💬 Contato direto via [WhatsApp](https://wa.me/5535997629116?text=Hello%2C%20I%20would%20like%20to%20talk%20about%20the%20Hellforge%21)  
+🧠 Projetos reais, com foco em **boas práticas de front-end e back-end**  
+
+> ✨ Modern and responsive interface  
+> 🌍 Bilingual support (Portuguese 🇧🇷 / English 🇺🇸)  
+> 📱 Mobile-first and fully adaptive layout  
+> 🧩 Clean and maintainable structure  
+> 💬 Direct contact via [WhatsApp](https://wa.me/5535997629116?text=Hello%2C%20I%20would%20like%20to%20talk%20about%20the%20Hellforge%21)  
+> 🧠 Real projects focused on **front-end and back-end best practices**
+
+---
+
+## 🛠️ Technologies | Tecnologias
+
+| Front-end | Back-end | Tools |
+|------------|-----------|--------|
+| HTML5 | Node.js | Git & GitHub |
+| CSS3 / Tailwind CSS | Express | VS Code |
+| JavaScript (ES6+) | MongoDB | Figma |
+| React (em projetos futuros) | API REST | |
+
+---
+
+## 🧩 Project Structure | Estrutura do Projeto
+
+/
+├── AllProjects/
+│   ├── allProjects.html
+│   ├── script_allProjects.js
+│   └── style_allProjects.css
+│
+├── Page_under_construction/
+│   ├── Page_under_construction.html
+│   ├── script_puc.js
+│   └── style_puc.css
+│
+├── Portifólio_Thiago_arquivos/
+│   ├── img/
+│   ├── lang.js
+│   ├── remixicon.css
+│   ├── scrollreveal.min.js
+│   └── style.css
+│
+├── index.html
+├── menu.js
+└── README.md
+
+---
+
+## 🚀 Live Preview | Demonstração
+
+🔗 **Acesse o site:** [thiagotorres.dev](https://thiagotorres.dev/)  
+💾 **Código-fonte no GitHub:** [github.com/ThiagoTorresFerrao/Portifolio](https://github.com/ThiagoTorresFerrao/Portifolio)
+
+---
+
+## ⚙️ How to Run Locally | Como Executar Localmente
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/ThiagoTorresFerrao/Portifolio.git
+
+2. Acesse a pasta do projeto:
+    ```bash
+    cd Portifolio
+
+3. Abra o arquivo index.html no navegador.
+
+
+
+📬 Contact | Contato
+
+📧 Email: contato@thiagotorres.dev
+
+💼 LinkedIn: linkedin.com/in/thiagotorresferrao
+
+🐙 GitHub: github.com/ThiagoTorresFerrao
+
+[Instagram](https://www.instagram.com/thiagotorresferrao/)
+
+[YouTube](https://www.youtube.com/@Thiago_Torres)
+
+
+
+Sinta-se à vontade para entrar em contato para colaborações, oportunidades ou apenas um bate-papo sobre tecnologia.
+Feel free to reach out for collaborations, job opportunities, or just to talk about tech.
+
+🏷️ License | Licença
+
+Este projeto está sob a licença MIT.
+
+This project is licensed under the MIT License.
+
+💬 Quote | Citação
+
+"Technology is not just my job — it's my passion since childhood."
+“A tecnologia não é apenas meu trabalho — é minha paixão desde a infância.”
+
 
 *** incomplete, infinite work in progress ***
 
