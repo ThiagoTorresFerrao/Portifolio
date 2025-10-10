@@ -46,24 +46,22 @@ Neste portfólio, ele apresenta seus principais **projetos, experiências e traj
 
 ## 🧩 Project Structure | Estrutura do Projeto
 
+```text
 /
 ├── AllProjects/
 │   ├── allProjects.html
 │   ├── script_allProjects.js
 │   └── style_allProjects.css
-│
 ├── Page_under_construction/
 │   ├── Page_under_construction.html
 │   ├── script_puc.js
 │   └── style_puc.css
-│
 ├── Portifólio_Thiago_arquivos/
 │   ├── img/
 │   ├── lang.js
 │   ├── remixicon.css
 │   ├── scrollreveal.min.js
 │   └── style.css
-│
 ├── index.html
 ├── menu.js
 └── README.md
