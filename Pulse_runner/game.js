@@ -30,7 +30,7 @@ const hitSound = new Audio("sounds/fahh.mp3");
 
 // PLAYER
 const player = {
-  x: 100,
+  x: 200,
   y: 0,
   radius: 15,
   velocityY: 0,
@@ -49,7 +49,8 @@ let deathParticles = [];
 let stars = Array.from({ length: 100 }, () => ({
   x: Math.random() * canvas.width,
   y: Math.random() * canvas.height,
-  size: Math.random() * 2
+  size: Math.random() * 2,
+  speed: Math.random() * 1 + 0.5 // 👈 velocidade diferente pra cada estrela
 }));
 
 function startGame() {
@@ -128,10 +129,24 @@ function draw() {
 
   // estrelas
   ctx.fillStyle = "white";
+
   stars.forEach(s => {
-    ctx.globalAlpha = Math.random();
-    ctx.fillRect(s.x, s.y, s.size, s.size);
+
+  // 👇 movimento pra esquerda
+  if (running && !gameOver) {
+    s.x -= s.speed;
+  }
+
+  // 👇 quando sair da tela, volta pro lado direito
+  if (s.x < 0) {
+    s.x = canvas.width;
+    s.y = Math.random() * canvas.height;
+  }
+
+  ctx.globalAlpha = Math.random();
+  ctx.fillRect(s.x, s.y, s.size, s.size);
   });
+
   ctx.globalAlpha = 1;
 
   // chão neon
