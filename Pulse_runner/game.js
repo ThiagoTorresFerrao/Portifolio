@@ -209,7 +209,7 @@ function draw() {
 
   // obstáculos
   obstacles.forEach((obs, i) => {
-    if (running && !gameOver) obs.x -= 6;
+    if (running && !gameOver) obs.x -= 5;
 
     ctx.shadowBlur = 20;
     ctx.shadowColor = "#ff00c8";
