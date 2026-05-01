@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Pulse Runner</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<canvas id="game"></canvas>
+
+<div class="hud">
+  <span>PULSE RUNNER</span>
+  <span id="score">Score: 00000</span>
+  <span id="best">Best: 00000</span>
+</div>
+
+<div id="startScreen" class="screen">
+  <h1>PRESS SPACE</h1>
+  <p>ou toque na tela</p>
+</div>
+
+<div id="gameOverScreen" class="screen hidden">
+  <h1>GAME OVER</h1>
+  <button onclick="restartGame()">RESTART</button>
+</div>
+
+<script src="game.js"></script>
+</body>
+</html>

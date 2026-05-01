@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background: #02010a;
+  font-family: monospace;
+  color: #8be9fd;
+}
+
+canvas {
+  display: block;
+}
+
+/* HUD */
+.hud {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  z-index: 2;
+}
+
+/* TELAS */
+.screen {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0,0,0,0.7);
+  z-index: 3;
+}
+
+.hidden {
+  display: none;
+}
+
+.screen h1 {
+  font-size: 40px;
+  animation: blink 1s infinite;
+}
+
+.screen button {
+  margin-top: 20px;
+  padding: 12px 24px;
+  background: transparent;
+  border: 2px solid #00f0ff;
+  color: #00f0ff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.screen button:hover {
+  background: #00f0ff;
+  color: black;
+}
+
+@keyframes blink {
+  50% { opacity: 0.3; }
+}

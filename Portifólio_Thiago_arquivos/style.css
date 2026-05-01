@@ -1119,3 +1119,10 @@ svg {
   background-color: var(--first-color-alt);
   transform: translateY(-2px);
 }
+
+iframe {
+  width: 100%;
+  height: 500px;
+  border: none;
+  border-radius: 12px;
+}
