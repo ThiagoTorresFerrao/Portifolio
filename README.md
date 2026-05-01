@@ -7,11 +7,11 @@
 
 ## 🧑‍💻 About | Sobre
 
-**Thiago Torres** é um desenvolvedor **Full Stack** apaixonado por tecnologia desde criança, com sólida experiência em **HTML, CSS, JavaScript, C#, Node.js, React e muito mais**.  
-Neste portfólio, ele apresenta seus principais **projetos, experiências e trajetória profissional**, com um design moderno e totalmente **responsivo**.
+Thiago Torres é um desenvolvedor Full Stack com foco em Front-end, especializado em JavaScript e na criação de aplicações web modernas com React, Node.js, HTML e CSS, além de experiência com C# no desenvolvimento back-end.
+Neste portfólio, apresenta seus principais projetos, experiências e trajetória profissional, por meio de uma interface moderna, intuitiva e totalmente responsiva.
 
-> **Thiago Torres** is a **Full Stack Developer** passionate about technology since childhood, experienced in **HTML, CSS, JavaScript, C#, Node.js, React**, and more.  
-> This portfolio showcases his main **projects, experience, and career path**, built with a modern and fully **responsive design**.
+Thiago Torres is a Full Stack developer with a focus on Front-end, specialized in JavaScript and in building modern web applications using React, Node.js, HTML, and CSS, with additional experience in C# for back-end development.
+In this portfolio, he presents his main projects, experiences, and professional journey through a modern, intuitive, and fully responsive interface.
 
 ---
 
@@ -38,7 +38,7 @@ Neste portfólio, ele apresenta seus principais **projetos, experiências e traj
 | Front-end | Back-end | Tools |
 |------------|-----------|--------|
 | HTML5 | Node.js | Git & GitHub |
-| CSS3 / Tailwind CSS | Express | VS Code |
+| CSS3 / xpreTailwind CSS | Ess | VS Code |
 | JavaScript (ES6+) | MongoDB | Figma |
 | React (em projetos futuros) | API REST | |
 
@@ -125,25 +125,25 @@ This project is licensed under the MIT License.
 
 *** incomplete, infinite work in progress ***
 
-EN-US
+🇺🇸 EN-US (updated)
 
 I am a natural learner, driven by curiosity and a constant desire to grow. I have a solid career as a Full-stack developer, with deep technical knowledge in JavaScript and the main technologies related to the front-end ecosystem, such as HTML, CSS, React, Vite, and modern web development tools. My passion for technology began in childhood, and since then, I’ve been accumulating knowledge in various areas—not just within my profession.
 
 Over the years, I’ve built a strong foundation in programming by studying intensively through online courses, such as those from Alura and Curso em Vídeo, along with hands-on experience in personal and professional projects. My journey also includes experience in supervision, web design, and infrastructure, making me a versatile professional with a broad perspective on projects.
 
+Recently, I had the opportunity to work as an instructor in the Systems Analysis and Development course at SENAC, where I taught front-end fundamentals, including HTML, CSS, JavaScript, and core web development concepts. This experience strengthened my communication skills and deepened my understanding of the fundamentals by teaching them in practice.
+
 Outside the professional environment, I’m a father of two, a hobbyist woodworker and musician, always balancing the technical side with creativity and aesthetic sense. I have a wide range of knowledge in areas such as electronics, computer assembly, automation, and more. Learning is part of my daily routine, even when it’s outside my primary field—and that’s what makes me a well-rounded and constantly evolving professional.
 
 Objective: To continue growing in the front-end development field, contributing with modern and efficient solutions, and always challenging myself to learn something new every day.
 
+🇧🇷 PT-BR (atualizado)
 
--
-
-
-PT-BR
-
-Sou um estudioso nato, movido pela curiosidade e pela vontade constante de aprender. Tenho uma carreira consolidada como desenvolvedor front-end, com profundo conhecimento técnico em JavaScript e nas principais tecnologias relacionadas ao ecossistema full Stack, como HTML, CSS, React, Vite e ferramentas modernas de desenvolvimento web. Minha paixão por tecnologia começou ainda na infância, e desde então venho acumulando conhecimentos em diversas áreas, não apenas na minha profissão.
+Sou um estudioso nato, movido pela curiosidade e pela vontade constante de aprender. Tenho uma carreira consolidada como desenvolvedor front-end, com profundo conhecimento técnico em JavaScript e nas principais tecnologias relacionadas ao ecossistema full stack, como HTML, CSS, React, Vite e ferramentas modernas de desenvolvimento web. Minha paixão por tecnologia começou ainda na infância, e desde então venho acumulando conhecimentos em diversas áreas, não apenas na minha profissão.
 
 Ao longo dos anos, construí uma base sólida em programação, estudando intensamente por meio de cursos online, como os da Alura e do Curso em Vídeo, além de experiências práticas em projetos próprios e profissionais. Minha trajetória também inclui experiências com supervisão, design web e infraestrutura, o que me torna um profissional versátil e com visão ampla de projetos.
+
+Recentemente, tive a oportunidade de atuar como professor no curso de Análise e Desenvolvimento de Sistemas no SENAC, onde lecionei fundamentos de front-end, incluindo HTML, CSS, JavaScript e conceitos essenciais de desenvolvimento web. Essa experiência fortaleceu minhas habilidades de comunicação e aprofundou ainda mais meu domínio dos fundamentos ao ensiná-los na prática.
 
 Fora do ambiente profissional, sou pai de dois filhos, marceneiro e músico por hobby, sempre equilibrando o lado técnico com a criatividade e o senso estético. Tenho conhecimentos diversos em áreas como eletrônica, montagem de computadores, automação e muito mais. Aprender é parte da minha rotina, mesmo quando o assunto foge da minha área principal — e é isso que me torna um profissional completo e sempre em evolução.
 
