@@ -1,3 +1,11 @@
+let obstacleTimer = 0;
+let nextObstacleTime = getRandomTime();
+
+function getRandomTime() {
+  return Math.random() * 1000 + 800; 
+  // entre 800ms e 1800ms (ajuste como quiser)
+}
+
 const canvas = document.getElementById("game");
 const ctx = canvas.getContext("2d");
 let ground = 0;
@@ -110,18 +118,6 @@ document.addEventListener("visibilitychange", () => {
   if (document.hidden) audio.pause();
   else if (running) audio.play();
 });
-
-// OBSTÁCULOS
-setInterval(() => {
-  if (running && !gameOver) {
-    obstacles.push({
-      x: canvas.width,
-      y: ground - 30,
-      size: 30,
-      type: Math.random() > 0.5 ? "square" : "triangle"
-    });
-  }
-}, 1600);
 
 // LOOP
 function draw() {
@@ -263,6 +259,22 @@ function draw() {
   });
 
   requestAnimationFrame(draw);
+
+  if (running && !gameOver) {
+  obstacleTimer += 16; // ~ tempo por frame (16ms ≈ 60fps)
+
+  if (obstacleTimer > nextObstacleTime) {
+    obstacles.push({
+      x: canvas.width,
+      y: ground - 30,
+      size: Math.random() * 20 + 20, // 👈 tamanho variável
+      type: Math.random() > 0.5 ? "square" : "triangle"
+    });
+
+    obstacleTimer = 0;
+    nextObstacleTime = getRandomTime(); // novo tempo aleatório
+  }
+}
 }
 
 draw();
