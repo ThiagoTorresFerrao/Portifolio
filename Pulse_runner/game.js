@@ -1,8 +1,19 @@
 const canvas = document.getElementById("game");
 const ctx = canvas.getContext("2d");
+let ground = 0;
 
-canvas.width = window.innerWidth;
-canvas.height = window.innerHeight;
+function resizeCanvas() {
+  canvas.width = canvas.parentElement.clientWidth;
+  canvas.height = canvas.parentElement.clientHeight;
+
+  ground = canvas.height - 80;
+  player.y = ground - player.radius;
+player.velocityY = 0;
+player.onGround = true;
+}
+
+resizeCanvas();
+window.addEventListener("resize", resizeCanvas);
 
 let running = false;
 let gameOver = false;
@@ -18,7 +29,7 @@ audio.loop = true;
 // PLAYER
 const player = {
   x: 100,
-  y: canvas.height - 120,
+  y: ground - 15,
   radius: 15,
   velocityY: 0,
   gravity: 0.6,
@@ -97,7 +108,7 @@ setInterval(() => {
   if (running && !gameOver) {
     obstacles.push({
       x: canvas.width,
-      y: canvas.height - 100,
+      y: ground - 30,
       size: 30,
       type: Math.random() > 0.5 ? "square" : "triangle"
     });
@@ -127,8 +138,8 @@ function draw() {
   ctx.shadowColor = "#00f0ff";
 
   ctx.beginPath();
-  ctx.moveTo(0, canvas.height - 80);
-  ctx.lineTo(canvas.width, canvas.height - 80);
+  ctx.moveTo(0, ground);
+  ctx.lineTo(canvas.width, ground);
   ctx.stroke();
   ctx.shadowBlur = 0;
 
@@ -148,8 +159,8 @@ function draw() {
     player.y += player.velocityY;
   }
 
-  if (player.y > canvas.height - 120) {
-    player.y = canvas.height - 120;
+  if (player.y > ground - player.radius) {
+    player.y = ground - player.radius;
     player.velocityY = 0;
     player.onGround = true;
   }
