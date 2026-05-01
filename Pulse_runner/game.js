@@ -22,8 +22,11 @@ let best = localStorage.getItem("bestScore") || 0;
 document.getElementById("best").innerText =
   "Best: " + String(best).padStart(5, "0");
 
+  // SONS
 const audio = new Audio("sound.mp3");
 audio.loop = true;
+const jumpSound = new Audio("sounds/jump.mp3");
+const hitSound = new Audio("sounds/fahh.mp3");
 
 // PLAYER
 const player = {
@@ -63,6 +66,9 @@ function jump() {
   if (player.onGround && running && !gameOver) {
     player.velocityY = player.jump;
     player.onGround = false;
+
+    jumpSound.currentTime = 0;
+    jumpSound.play();
 
     for (let i = 0; i < 12; i++) {
       particles.push({
@@ -220,6 +226,10 @@ function draw() {
       gameOver = true;
       running = false;
       audio.pause();
+
+      hitSound.currentTime = 0;
+      hitSound.play();
+
       explode();
 
       if (score > best) {
