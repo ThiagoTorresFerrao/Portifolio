@@ -6,13 +6,12 @@ function resizeCanvas() {
   canvas.width = canvas.parentElement.clientWidth;
   canvas.height = canvas.parentElement.clientHeight;
 
-  ground = canvas.height - 80;
+  ground = canvas.height * 1;
   player.y = ground - player.radius;
-player.velocityY = 0;
-player.onGround = true;
+  player.velocityY = 0;
+  player.onGround = true;
 }
 
-resizeCanvas();
 window.addEventListener("resize", resizeCanvas);
 
 let running = false;
@@ -29,13 +28,15 @@ audio.loop = true;
 // PLAYER
 const player = {
   x: 100,
-  y: ground - 15,
+  y: 0,
   radius: 15,
   velocityY: 0,
   gravity: 0.6,
   jump: -12,
   onGround: true
 };
+
+resizeCanvas();
 
 let obstacles = [];
 let particles = [];

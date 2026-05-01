@@ -48,7 +48,8 @@ const translations = {
     sendMessage: "Enviar mensagem",
     qrcodemsg: "Escaneie o QR Code para me chamar no WhatsApp",
     footerRole: "Desenvolvedor Full-stack",
-    rights: "Todos os direitos reservados © 2026"
+    rights: "Todos os direitos reservados © 2026",
+    game: "Mini Game Interativo"
   },
       // Texto em inglês
   en: {
@@ -98,7 +99,8 @@ const translations = {
     sendMessage: "Send Message",
     qrcodemsg: "Scan the QR Code to call me on WhatsApp",
     footerRole: "Full-stack Developer",
-    rights: "All rights reserved © 2026"
+    rights: "All rights reserved © 2026",
+    game: "Interactive Mini Game"
   }
 };
 
