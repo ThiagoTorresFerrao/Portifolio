@@ -10,11 +10,15 @@ const translations = {
     contato: "Contato",
     hello: "Olá, Eu sou o",
     role: "Desenvolvedor Full-stack",
-    description: "Como Desenvolvedor Full Stack, domino tecnologias como HTML, CSS, JavaScript, Node.js, React e MongoDB, o que me permite criar soluções completas, desde a interface do usuário até a lógica de servidor e banco de dados. Tenho uma paixão por transformar ideias em produtos digitais funcionais e bem estruturados. Dedico-me a entregar projetos de alta qualidade, cuidadosamente planejados e desenvolvidos para atender às necessidades específicas de cada cliente, unindo excelência técnica, performance, escalabilidade, funcionalidade e um design moderno e atrativo.",
+    description: "Crio aplicações web modernas e escaláveis, com foco em performance, experiência do usuário e qualidade de código, entregando soluções digitais eficientes e bem estruturadas.",
     letsTalk: "Vamos Conversar",
     introMe: "Minha <span>introdução</span>",
     aboutTitle: "Sobre mim", 
-    aboutText: "Olá, eu sou Thiago Torres! Sou Desenvolvedor Full Stack em transição de carreira, com foco na criação de soluções completas e eficientes. Atualmente curso Análise e Desenvolvimento de Sistemas e me especializo em tecnologias modernas como HTML, CSS, JavaScript, React, Node.js e MongoDB. Além da stack web, também venho estudando Inteligência Artificial, aplicando conceitos em projetos práticos como chatbots, automações inteligentes e funcionalidades que agregam valor a aplicações web. Este portfólio reúne alguns dos meus projetos mais recentes, desenvolvidos com atenção à arquitetura, boas práticas, responsividade e performance. Outros projetos podem ser encontrados no meu GitHub, onde exploro ideias mais avançadas e estudo novas tecnologias. Estou constantemente aprimorando minhas habilidades tanto no front-end quanto no back-end, e agora também expandindo meus conhecimentos na área de IA, com o objetivo de construir aplicações cada vez mais robustas, inteligentes e inovadoras.",
+    aboutText: "Olá, eu sou Thiago Torres! Sou desenvolvedor Full Stack com foco em Front-end, atuando na criação de soluções web modernas, eficientes e bem estruturadas. Sou formado em Análise e Desenvolvimento de Sistemas e possuo sólida experiência com tecnologias como HTML, CSS, JavaScript, React, Node.js e MongoDB.
+    Recentemente, tive a oportunidade de atuar como professor no curso de Análise e Desenvolvimento de Sistemas, onde lecionei fundamentos de front-end, incluindo HTML, CSS e JavaScript. Essa experiência fortaleceu minhas habilidades de comunicação, organização e aprofundou ainda mais meu domínio dos conceitos essenciais de desenvolvimento web.
+    Além da stack web, venho expandindo meus conhecimentos em Inteligência Artificial, aplicando conceitos em projetos práticos como automações, chatbots e funcionalidades inteligentes que agregam valor às aplicações.
+    Este portfólio reúne alguns dos meus projetos mais relevantes, desenvolvidos com foco em boas práticas, arquitetura, responsividade e performance. Outros projetos podem ser encontrados no meu GitHub, onde exploro novas tecnologias e soluções mais avançadas.
+    Estou em constante evolução, buscando aprimorar minhas habilidades tanto no front-end quanto no back-end, com o objetivo de desenvolver aplicações cada vez mais completas, escaláveis e inovadoras.",
     contactMe: "Fale comigo",
     favSkills: "Skills favoritas", // span não está funcionando verificar posteriormente //
     skillsTitle: "Minhas Skills",
@@ -60,11 +64,15 @@ const translations = {
     contato: "Contact",
     hello: "Hello, I am",
     role: "Full-stack Developer",
-    description: "As a Full Stack Developer, I have expertise in technologies such as HTML, CSS, JavaScript, Node.js, React, and MongoDB, allowing me to build complete solutions — from user interfaces to server-side logic and databases. I’m passionate about turning ideas into well-structured, functional digital products. I’m committed to delivering high-quality projects, carefully planned and developed to meet each client's specific needs, combining technical excellence, performance, scalability, functionality, and a modern, attractive design.",
+    description: "I build modern and scalable web applications focused on performance, user experience, and code quality, delivering efficient and well-structured digital solutions.",
     letsTalk: "Let's Talk",
     introMe: "My <span>introduction</span>",
     aboutTitle: "About Me",
-    aboutText: "Hi, I'm Thiago Torres! I'm a Full Stack Developer transitioning into tech, focused on building complete and efficient digital solutions. I’m currently pursuing a degree in Systems Analysis and Development, while specializing in modern technologies like HTML, CSS, JavaScript, React, Node.js, and MongoDB. In addition to full stack development, I’m also studying Artificial Intelligence, and have already started creating practical projects involving chatbots, intelligent automations, and AI-powered features for web applications. This portfolio showcases some of my most recent projects, developed with attention to architecture, best practices, responsiveness, and performance. You can find more of my work on my GitHub, where I explore advanced concepts and experiment with new technologies. I’m constantly improving my skills in both front-end and back-end development, while expanding my knowledge in AI, aiming to build increasingly robust, intelligent, and innovative applications.",
+    aboutText: "Hello, I’m Thiago Torres! I’m a Full Stack developer with a focus on Front-end, working on building modern, efficient, and well-structured web solutions. I hold a degree in Systems Analysis and Development and have solid experience with technologies such as HTML, CSS, JavaScript, React, Node.js, and MongoDB.
+    Recently, I had the opportunity to work as an instructor in a Systems Analysis and Development program, where I taught front-end fundamentals, including HTML, CSS, and JavaScript. This experience strengthened my communication and organizational skills, while also deepening my understanding of core web development concepts.
+    Beyond the web stack, I have been expanding my knowledge in Artificial Intelligence, applying concepts in practical projects such as automation, chatbots, and intelligent features that enhance web applications.
+    This portfolio showcases some of my most relevant projects, developed with a strong focus on best practices, architecture, responsiveness, and performance. Additional projects can be found on my GitHub, where I explore new technologies and more advanced solutions.
+    I am constantly evolving, continuously improving my skills in both front-end and back-end development, with the goal of building increasingly robust, scalable, and innovative applications.",
     contactMe: "Contact Me",
     favSkills: "Favorite skills",    // span não está funcionando verificar posteriormente //
     skillsTitle: "My Skills",
