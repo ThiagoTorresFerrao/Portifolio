@@ -62,6 +62,11 @@ In this portfolio, he presents his main projects, experiences, and professional 
 │   ├── remixicon.css
 │   ├── scrollreveal.min.js
 │   └── style.css
+├── Pulse_runner/
+│   ├── sounds/
+│   ├── game.js
+│   ├── index.html
+│   └── style.css
 ├── index.html
 ├── menu.js
 └── README.md
