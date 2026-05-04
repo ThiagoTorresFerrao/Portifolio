@@ -105,8 +105,12 @@ function explode() {
 
 // EVENTOS
 window.addEventListener("keydown", e => {
-  if (!running && e.code === "Space") startGame();
-  else if (e.code === "Space") jump();
+  if (e.code === "Space") {
+    e.preventDefault(); // 🚫 trava o scroll
+
+    if (!running) startGame();
+    else jump();
+  }
 });
 
 window.addEventListener("touchstart", () => {
