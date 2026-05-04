@@ -1132,3 +1132,8 @@ iframe {
   border-radius: 12px;
   box-shadow: 0 0 25px rgba(0, 240, 255, 0.3);
 }
+
+/*=====Não ignorar as quebradas de linha do aboutme=======*/
+.about__description {
+  white-space: pre-line;
+}
