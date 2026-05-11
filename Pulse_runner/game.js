@@ -53,6 +53,8 @@ let obstacles = [];
 let particles = [];
 let deathParticles = [];
 
+let gameSpeed = 5;
+
 // STARS
 let stars = Array.from({ length: 100 }, () => ({
   x: Math.random() * canvas.width,
@@ -134,7 +136,7 @@ function draw() {
 
   // 👇 movimento pra esquerda
   if (running && !gameOver) {
-    s.x -= s.speed;
+    s.x -= s.speed * (gameSpeed * 0.2);
   }
 
   // 👇 quando sair da tela, volta pro lado direito
@@ -179,6 +181,8 @@ function draw() {
   if (running && !gameOver) {
     player.velocityY += player.gravity;
     player.y += player.velocityY;
+
+    gameSpeed += 0.001;
   }
 
   if (player.y > ground - player.radius) {
@@ -213,7 +217,7 @@ function draw() {
 
   // obstáculos
   obstacles.forEach((obs, i) => {
-    if (running && !gameOver) obs.x -= 5;
+    if (running && !gameOver) obs.x -= gameSpeed;
 
     ctx.shadowBlur = 20;
     ctx.shadowColor = "#ff00c8";
@@ -258,7 +262,8 @@ function draw() {
       obstacles.splice(i, 1);
       score++;
       document.getElementById("score").innerText =
-        "Score: " + String(score).padStart(5, "0");
+      "Score: " + String(score).padStart(5, "0") +
+      " | Speed: " + gameSpeed.toFixed(1);
     }
   });
 
