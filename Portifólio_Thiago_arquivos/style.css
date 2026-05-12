@@ -1174,3 +1174,47 @@ iframe {
   background-position: center;
   background-repeat: no-repeat;
 }
+
+/*=============== INTRO ===============*/
+
+#intro {
+    position: fixed;
+    inset: 0;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 99999;
+    transition: opacity 1s ease;
+}
+
+.intro__logo {
+    font-size: 3rem;
+    color: #fff;
+    letter-spacing: 8px;
+    margin-bottom: 1rem;
+    animation: glow 2s infinite alternate;
+}
+
+.intro__typing {
+    color: #00ffcc;
+    font-size: 1.1rem;
+    border-right: 2px solid #00ffcc;
+    padding-right: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+@keyframes glow {
+
+    from {
+        text-shadow: 0 0 10px #00ffcc;
+    }
+
+    to {
+        text-shadow:
+            0 0 20px #00ffcc,
+            0 0 40px #00ffcc;
+    }
+}
