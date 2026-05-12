@@ -68,6 +68,7 @@ In this portfolio, he presents his main projects, experiences, and professional 
 │   ├── index.html
 │   └── style.css
 ├── index.html
+├── intro.js
 ├── menu.js
 └── README.md
 
