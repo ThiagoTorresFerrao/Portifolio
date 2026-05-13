@@ -1323,3 +1323,139 @@ iframe {
         opacity: 0;
     }
 }
+
+/*===== FUTURISTIC CORNERS =====*/
+
+.intro__corners {
+
+    position: absolute;
+
+    inset: 0;
+
+    pointer-events: none;
+}
+
+.corner {
+
+    position: absolute;
+
+    width: 70px;
+    height: 70px;
+}
+
+/* linhas */
+
+.corner::before,
+.corner::after {
+
+    content: "";
+
+    position: absolute;
+
+    background: #05aaff;
+
+    box-shadow:
+    0 0 5px rgba(5,170,255,.6),
+    0 0 10px rgba(5,170,255,.7),
+    0 0 20px rgba(5,170,255,.8);
+
+animation: cornerPulse 2s ease-in-out infinite;
+}
+
+/* linha horizontal */
+
+.corner::before {
+
+    width: 70px;
+    height: 2px;
+}
+
+/* linha vertical */
+
+.corner::after {
+
+    width: 2px;
+    height: 70px;
+}
+
+/* TOP LEFT */
+
+.top-left {
+
+    top: 30px;
+    left: 30px;
+}
+
+/* TOP RIGHT */
+
+.top-right {
+
+    top: 30px;
+    right: 30px;
+}
+
+.top-right::before,
+.top-right::after {
+
+    right: 0;
+}
+
+/* BOTTOM LEFT */
+
+.bottom-left {
+
+    bottom: 30px;
+    left: 30px;
+}
+
+.bottom-left::before,
+.bottom-left::after {
+
+    bottom: 0;
+}
+
+/* BOTTOM RIGHT */
+
+.bottom-right {
+
+    bottom: 30px;
+    right: 30px;
+}
+
+.bottom-right::before,
+.bottom-right::after {
+
+    right: 0;
+    bottom: 0;
+}
+
+@keyframes cornerPulse {
+
+    0% {
+
+        opacity: .6;
+
+        box-shadow:
+            0 0 5px rgba(5,170,255,.4),
+            0 0 10px rgba(5,170,255,.5);
+    }
+
+    50% {
+
+        opacity: 1;
+
+        box-shadow:
+            0 0 10px rgba(5,170,255,.8),
+            0 0 20px rgba(5,170,255,1),
+            0 0 35px rgba(5,170,255,.9);
+    }
+
+    100% {
+
+        opacity: .6;
+
+        box-shadow:
+            0 0 5px rgba(5,170,255,.4),
+            0 0 10px rgba(5,170,255,.5);
+    }
+}
