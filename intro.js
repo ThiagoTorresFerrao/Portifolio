@@ -5,7 +5,7 @@ const typingElement = document.querySelector(".intro__typing");
 const codeLines = document.querySelectorAll(".code-line");
 
 const codeTexts = [
-    '> const developer = "Thiago Torres";',
+    '> const dev = "Thiago Torres";',
     '> Loading projects...',
     '> Portfolio ready'
 ];

@@ -1474,3 +1474,19 @@ animation: cornerPulse 2s ease-in-out infinite;
         transform: translateY(10px);
     }
 }
+
+
+/*===== CENTRALIZAR NO MOBILE =====*/
+@media screen and (max-width: 768px) {
+
+    .intro__logo {
+
+        text-align: center;
+
+        font-size: 2.2rem;
+
+        letter-spacing: 4px;
+
+        padding-inline: 1rem;
+    }
+}
