@@ -66,15 +66,18 @@ function typeCodeLine(lineIndex) {
     typeCharacter();
 }
 
-window.addEventListener("load", () => {
+window.addEventListener("DOMContentLoaded", () => {
 
     const intro = document.getElementById("intro");
 
     if (introAlreadyShown) {
-        intro.style.display = "none";
+
+        intro.remove();
+
         return;
     }
 
     sessionStorage.setItem("introShown", "true");
-    typeIntro();
+
+    window.addEventListener("load", typeIntro);
 });
