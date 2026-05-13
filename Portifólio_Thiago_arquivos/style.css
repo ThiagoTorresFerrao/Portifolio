@@ -1232,3 +1232,94 @@ iframe {
             0 0 20px rgba(5, 170, 235, 0.3);
     }
 }
+
+/*===== Scanline =====*/
+
+.intro__scanline {
+    position: absolute;
+    inset: 0;
+
+    background:
+        repeating-linear-gradient(
+            to bottom,
+            rgba(255,255,255,0.03),
+            rgba(255,255,255,0.03) 1px,
+            transparent 1px,
+            transparent 3px
+        );
+
+    pointer-events: none;
+    opacity: .25;
+}
+
+/*===== Loading =====*/
+
+.intro__loading {
+    width: 220px;
+    height: 4px;
+    margin-top: 2rem;
+
+    background: rgba(255,255,255,.08);
+
+    border-radius: 999px;
+    overflow: hidden;
+}
+
+.intro__loading-bar {
+    width: 0%;
+    height: 100%;
+
+    background: linear-gradient(
+        90deg,
+        var(--first-color),
+        var(--first-color-alt)
+    );
+
+    box-shadow:
+        0 0 10px var(--first-color-alt),
+        0 0 20px var(--first-color-alt);
+
+    animation: loadingBar 11s ease forwards;
+}
+
+@keyframes loadingBar {
+
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+/*===== TERMINAL CODE =====*/
+
+.intro__code {
+
+    margin-top: 2rem;
+
+    font-family: "Courier New", monospace;
+
+    color: #8fdfff;
+
+    font-size: .9rem;
+
+    opacity: .8;
+
+    line-height: 1.8;
+
+    text-align: left;
+}
+
+.cursor {
+
+    animation: blinkCursor .8s infinite;
+}
+
+@keyframes blinkCursor {
+
+    50% {
+        opacity: 0;
+    }
+}
