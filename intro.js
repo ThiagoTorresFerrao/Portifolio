@@ -1,3 +1,4 @@
+const introAlreadyShown = sessionStorage.getItem("introShown");
 const introText = "Initializing Portfolio...";
 const typingElement = document.querySelector(".intro__typing");
 
@@ -65,4 +66,15 @@ function typeCodeLine(lineIndex) {
     typeCharacter();
 }
 
-window.addEventListener("load", typeIntro);
+window.addEventListener("load", () => {
+
+    const intro = document.getElementById("intro");
+
+    if (introAlreadyShown) {
+        intro.style.display = "none";
+        return;
+    }
+
+    sessionStorage.setItem("introShown", "true");
+    typeIntro();
+});
