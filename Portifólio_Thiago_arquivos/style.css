@@ -1236,20 +1236,24 @@ iframe {
 /*===== Scanline =====*/
 
 .intro__scanline {
+
     position: absolute;
+
     inset: 0;
 
     background:
         repeating-linear-gradient(
             to bottom,
-            rgba(255,255,255,0.03),
-            rgba(255,255,255,0.03) 1px,
+            rgba(5,170,255,0.12) 0px,
+            rgba(5,170,255,0.12) 1px,
             transparent 1px,
-            transparent 3px
+            transparent 4px
         );
 
+    mix-blend-mode: soft-light;
+    opacity: .90;
     pointer-events: none;
-    opacity: .25;
+    animation: scanlineMove 8s linear infinite;
 }
 
 /*===== Loading =====*/
@@ -1457,5 +1461,16 @@ animation: cornerPulse 2s ease-in-out infinite;
         box-shadow:
             0 0 5px rgba(5,170,255,.4),
             0 0 10px rgba(5,170,255,.5);
+    }
+}
+
+@keyframes scanlineMove {
+
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(10px);
     }
 }
