@@ -11,7 +11,6 @@
   --text-color: rgb(249, 250, 252);
   --body-color: #2e2f33;
   --container-color: hsl(0, 0%, 3%);
-
   /*.5rem = 8px | 1rem = 16px ...*/
   --body-font: "Poppins", sans-serif;
   --biggest-font-size: 2rem;
@@ -22,11 +21,9 @@
   --normal-font-size: .938rem;
   --small-font-size: .813rem;
   --smaller-font-size: .75rem;
-
   --font-regular: 400;
   --font-medium: 500;
   --font-semi-bold: 600;
-
   --z-tooltip: 10;
   --z-fixed: 100;
 }
@@ -69,7 +66,7 @@
 }
 
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: auto;
 }
 
 input,
@@ -192,8 +189,6 @@ svg {
   color: var(--title-color);
   cursor: pointer;
 }
-
-
 
 /* Navigation for mobile devices */
 @media screen and (max-width: 1023px) {
@@ -794,7 +789,6 @@ svg {
   .section__title2 {
     margin-bottom: 0;
   }
-
   .container {
     margin-inline: auto;
   }
@@ -878,8 +872,6 @@ svg {
     font-size: var(--normal-font-size);
   }
 
-
-
   .contact__form {
     row-gap: 1.5rem;
   }
@@ -915,7 +907,6 @@ svg {
     
     column-gap: 1.5rem;
    
-  
   }
 
   .footer__copy {
@@ -1125,10 +1116,8 @@ iframe {
   width: 800px;
   max-width: 100%;
   height: 250px;
-
   display: block;
   margin: 2rem auto;
-
   border-radius: 12px;
   box-shadow: 0 0 25px rgba(0, 240, 255, 0.3);
 }
@@ -1212,20 +1201,17 @@ iframe {
 }
 
 @keyframes introGlow {
-
     0% {
         text-shadow:
             0 0 10px rgba(5, 170, 235, 0.5),
             0 0 20px rgba(5, 170, 235, 0.3);
     }
-
     50% {
         text-shadow:
             0 0 20px rgba(5, 170, 235, 0.9),
             0 0 40px rgba(5, 170, 235, 0.7),
             0 0 60px rgba(5, 170, 235, 0.5);
     }
-
     100% {
         text-shadow:
             0 0 10px rgba(5, 170, 235, 0.5),
@@ -1236,11 +1222,8 @@ iframe {
 /*===== Scanline =====*/
 
 .intro__scanline {
-
     position: absolute;
-
     inset: 0;
-
     background:
         repeating-linear-gradient(
             to bottom,
@@ -1249,7 +1232,6 @@ iframe {
             transparent 1px,
             transparent 4px
         );
-
     mix-blend-mode: soft-light;
     opacity: .90;
     pointer-events: none;
@@ -1262,9 +1244,7 @@ iframe {
     width: 220px;
     height: 4px;
     margin-top: 2rem;
-
     background: rgba(255,255,255,.08);
-
     border-radius: 999px;
     overflow: hidden;
 }
@@ -1272,26 +1252,21 @@ iframe {
 .intro__loading-bar {
     width: 0%;
     height: 100%;
-
     background: linear-gradient(
         90deg,
         var(--first-color),
         var(--first-color-alt)
     );
-
     box-shadow:
         0 0 10px var(--first-color-alt),
         0 0 20px var(--first-color-alt);
-
     animation: loadingBar 11s ease forwards;
 }
 
 @keyframes loadingBar {
-
     from {
         width: 0%;
     }
-
     to {
         width: 100%;
     }
@@ -1300,29 +1275,20 @@ iframe {
 /*===== TERMINAL CODE =====*/
 
 .intro__code {
-
     margin-top: 2rem;
-
     font-family: "Courier New", monospace;
-
     color: #8fdfff;
-
     font-size: .9rem;
-
     opacity: .8;
-
     line-height: 1.8;
-
     text-align: left;
 }
 
 .cursor {
-
     animation: blinkCursor .8s infinite;
 }
 
 @keyframes blinkCursor {
-
     50% {
         opacity: 0;
     }
@@ -1331,18 +1297,13 @@ iframe {
 /*===== FUTURISTIC CORNERS =====*/
 
 .intro__corners {
-
     position: absolute;
-
     inset: 0;
-
     pointer-events: none;
 }
 
 .corner {
-
     position: absolute;
-
     width: 70px;
     height: 70px;
 }
@@ -1353,11 +1314,8 @@ iframe {
 .corner::after {
 
     content: "";
-
     position: absolute;
-
     background: #05aaff;
-
     box-shadow:
     0 0 5px rgba(5,170,255,.6),
     0 0 10px rgba(5,170,255,.7),
@@ -1369,7 +1327,6 @@ animation: cornerPulse 2s ease-in-out infinite;
 /* linha horizontal */
 
 .corner::before {
-
     width: 70px;
     height: 2px;
 }
@@ -1377,7 +1334,6 @@ animation: cornerPulse 2s ease-in-out infinite;
 /* linha vertical */
 
 .corner::after {
-
     width: 2px;
     height: 70px;
 }
@@ -1385,7 +1341,6 @@ animation: cornerPulse 2s ease-in-out infinite;
 /* TOP LEFT */
 
 .top-left {
-
     top: 30px;
     left: 30px;
 }
@@ -1393,71 +1348,56 @@ animation: cornerPulse 2s ease-in-out infinite;
 /* TOP RIGHT */
 
 .top-right {
-
     top: 30px;
     right: 30px;
 }
 
 .top-right::before,
 .top-right::after {
-
     right: 0;
 }
 
 /* BOTTOM LEFT */
 
 .bottom-left {
-
     bottom: 30px;
     left: 30px;
 }
 
 .bottom-left::before,
 .bottom-left::after {
-
     bottom: 0;
 }
 
 /* BOTTOM RIGHT */
 
 .bottom-right {
-
     bottom: 30px;
     right: 30px;
 }
 
 .bottom-right::before,
 .bottom-right::after {
-
     right: 0;
     bottom: 0;
 }
 
 @keyframes cornerPulse {
-
     0% {
-
         opacity: .6;
-
         box-shadow:
             0 0 5px rgba(5,170,255,.4),
             0 0 10px rgba(5,170,255,.5);
     }
-
     50% {
-
         opacity: 1;
-
         box-shadow:
             0 0 10px rgba(5,170,255,.8),
             0 0 20px rgba(5,170,255,1),
             0 0 35px rgba(5,170,255,.9);
     }
-
     100% {
-
         opacity: .6;
-
         box-shadow:
             0 0 5px rgba(5,170,255,.4),
             0 0 10px rgba(5,170,255,.5);
@@ -1465,11 +1405,9 @@ animation: cornerPulse 2s ease-in-out infinite;
 }
 
 @keyframes scanlineMove {
-
     from {
         transform: translateY(0);
     }
-
     to {
         transform: translateY(10px);
     }
@@ -1485,18 +1423,15 @@ animation: cornerPulse 2s ease-in-out infinite;
         letter-spacing: 4px;
         padding-inline: 1rem;
     }
-
     .location__card {
         width: 100%;
         height: auto;
         padding: 1rem;
     }
-
     .location__map {
         width: 100%;
         height: 300px;
     }
-
     .location__info {
         flex-direction: column;
         gap: 1rem;
@@ -1509,7 +1444,6 @@ animation: cornerPulse 2s ease-in-out infinite;
 body {
     animation: pageReveal 2s ease;
 }
-
 body.page-exit {
     animation: pageExit 2s ease forwards;
 }
@@ -1534,4 +1468,23 @@ body.page-exit {
         filter: blur(0px);
         opacity: 1;
     }
+}
+
+/* ===== LENIS SMOOTH SRCOOL ===== */
+
+html.lenis,
+html.lenis body {
+    height: auto;
+}
+
+.lenis.lenis-smooth {
+    scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+    overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+    overflow: hidden;
 }
