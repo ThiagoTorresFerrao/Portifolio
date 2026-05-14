@@ -221,3 +221,35 @@ h1 {
     padding: 8px 16px;
   }
 }
+
+/* ===== PAGE TRANSITION ===== */
+
+body {
+    animation: pageReveal 2s ease;
+}
+
+body.page-exit {
+    animation: pageExit 2s ease forwards;
+}
+
+@keyframes pageExit {
+    0% {
+        filter: blur(0px);
+        opacity: 1;
+    }
+    100% {
+        filter: blur(12px);
+        opacity: 0.4;
+    }
+}
+
+@keyframes pageReveal {
+    0% {
+        filter: blur(12px);
+        opacity: 0.4;
+    }
+    100% {
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
