@@ -1609,6 +1609,7 @@ html.lenis body {
 }
 
 /* ===== GITHUB STATUS ===== */
+
 .github-activity {
     background-color: var(--container-color);
     background-image: url('img/bg.jpg');
