@@ -1608,3 +1608,38 @@ html.lenis body {
     padding-bottom: 0rem;
 }
 
+/* ===== GITHUB STATUS ===== */
+.github-activity {
+    background-color: var(--container-color);
+    background-image: url('img/bg.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 5rem 0;
+}
+.github-card {
+    background: rgba(255,255,255,.03);
+    border: 1px solid rgba(255,255,255,.08);
+    border-radius: 24px;
+    padding: 1.5rem;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    overflow: hidden;
+    box-shadow:
+        0 0 20px rgba(5,170,255,.08);
+    transition: .4s ease;
+}
+.github-card:hover {
+    transform: translateY(-4px);
+    box-shadow:
+        0 0 30px rgba(5,170,255,.18);
+}
+.github-card img {
+    width: 100%;
+    display: block;
+    border-radius: 14px;
+}
+.graph-card {
+    margin-top: 1rem;
+}
