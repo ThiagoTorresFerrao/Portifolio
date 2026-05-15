@@ -1500,28 +1500,24 @@ html.lenis body {
 /* ===== SKILLS SHOWCASE ===== */
 
 .skills-showcase {
-    padding: 8rem 0;
+    padding: 4rem 0 2rem;
     overflow: hidden;
 }
-
 .skills-block {
-    margin-bottom: 8rem;
+    margin-bottom: 4rem;
 }
-
 .skills-small-title {
     text-align: center;
     color: #05aaff;
     margin-bottom: 1rem;
     letter-spacing: 2px;
 }
-
 .skills-big-title {
     text-align: center;
     font-size: 2.5rem;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
     color: white;
 }
-
 .skills-big-title span {
     background: linear-gradient(
         90deg,
@@ -1531,7 +1527,6 @@ html.lenis body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
 .skills-marquee {
     position: relative;
     overflow: hidden;
@@ -1543,21 +1538,18 @@ html.lenis body {
         transparent
     );
 }
-
 .skills-track {
     display: flex;
     gap: 2rem;
     width: max-content;
     animation: marqueeMove 35s linear infinite;
 }
-
 .reverse .skills-track {
     animation-direction: reverse;
 }
 .skills-marquee:hover .skills-track {
     animation-play-state: paused;
 }
-
 .skill-item {
     display: flex;
     align-items: center;
