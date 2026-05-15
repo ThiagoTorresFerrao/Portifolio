@@ -19,12 +19,9 @@ const translations = {
     Sou formado em Análise e Desenvolvimento de Sistemas e possuo sólida experiência com tecnologias como HTML, CSS, JavaScript, React, Node.js e MongoDB.
     
     Recentemente, tive a oportunidade de atuar como professor no curso de Análise e Desenvolvimento de Sistemas, onde lecionei fundamentos de front-end, incluindo HTML, CSS e JavaScript.
-    
     Essa experiência fortaleceu minhas habilidades de comunicação, organização e aprofundou ainda mais meu domínio dos conceitos essenciais de desenvolvimento web.
     
-    Além da stack web, venho expandindo meus conhecimentos em Inteligência Artificial, aplicando conceitos em projetos práticos como automações, chatbots e funcionalidades inteligentes que agregam valor às aplicações.
-    
-    Este portfólio reúne alguns dos meus projetos mais relevantes, desenvolvidos com foco em boas práticas, arquitetura, responsividade e performance.`,
+    Além da stack web, venho expandindo meus conhecimentos em Inteligência Artificial, aplicando conceitos em projetos práticos como automações, chatbots e funcionalidades inteligentes que agregam valor às aplicações.`,
     contactMe: "Fale comigo",
     favSkills: "Skills favoritas", // span não está funcionando verificar posteriormente //
     skillsTitle: "Minhas Skills",
@@ -80,12 +77,9 @@ const translations = {
     I hold a degree in Systems Analysis and Development and have solid experience with technologies such as HTML, CSS, JavaScript, React, Node.js, and MongoDB.
     
     Recently, I had the opportunity to work as an instructor in a Systems Analysis and Development program, where I taught front-end fundamentals, including HTML, CSS, and JavaScript.
-    
     This experience strengthened my communication and organizational skills, while also deepening my understanding of core web development concepts.
     
-    Beyond the web stack, I have been expanding my knowledge in Artificial Intelligence, applying concepts in practical projects such as automation, chatbots, and intelligent features that enhance web applications.
-    
-    This portfolio showcases some of my most relevant projects, developed with a strong focus on best practices, architecture, responsiveness, and performance.`,
+    Beyond the web stack, I have been expanding my knowledge in Artificial Intelligence, applying concepts in practical projects such as automation, chatbots, and intelligent features that enhance web applications.`,
     contactMe: "Contact Me",
     favSkills: "Favorite skills",    // span não está funcionando verificar posteriormente //
     skillsTitle: "My Skills",
