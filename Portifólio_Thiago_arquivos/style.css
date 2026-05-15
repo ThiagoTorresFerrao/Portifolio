@@ -1544,10 +1544,10 @@ html.lenis body {
     display: flex;
     gap: 2rem;
     width: max-content;
-    animation: marqueeMove 35s linear infinite;
+    animation: marqueeMove 50s linear infinite;
 }
 .reverse .skills-track {
-    animation-direction: reverse;
+    animation: marqueeMove 100s linear infinite reverse;
 }
 .skills-marquee:hover .skills-track {
     animation-play-state: paused;
@@ -1603,8 +1603,7 @@ html.lenis body {
 }
 
 .skills.section {
-
     padding-top: 0rem;
-
     padding-bottom: 0rem;
 }
+
