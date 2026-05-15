@@ -1524,6 +1524,7 @@ html.lenis body {
         #05aaff,
         #c850ff
     );
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
