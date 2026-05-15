@@ -959,6 +959,7 @@ svg {
   animation: fadeInScaleFloat 1.2s ease forwards, float 4s ease-in-out infinite;
   transform-origin: center;
   display: block;
+  overflow: visible;
 }
 
 /* O path do brilho */
