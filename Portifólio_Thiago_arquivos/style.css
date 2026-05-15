@@ -1496,3 +1496,114 @@ html.lenis body {
     z-index: 1;
     pointer-events: none;
 }
+
+/* ===== SKILLS SHOWCASE ===== */
+
+.skills-showcase {
+    padding: 8rem 0;
+    overflow: hidden;
+}
+
+.skills-block {
+    margin-bottom: 8rem;
+}
+
+.skills-small-title {
+    text-align: center;
+    color: #05aaff;
+    margin-bottom: 1rem;
+    letter-spacing: 2px;
+}
+
+.skills-big-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 4rem;
+    color: white;
+}
+
+.skills-big-title span {
+    background: linear-gradient(
+        90deg,
+        #05aaff,
+        #c850ff
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.skills-marquee {
+    position: relative;
+    overflow: hidden;
+    mask-image: linear-gradient(
+        to right,
+        transparent,
+        white 15%,
+        white 85%,
+        transparent
+    );
+}
+
+.skills-track {
+    display: flex;
+    gap: 2rem;
+    width: max-content;
+    animation: marqueeMove 35s linear infinite;
+}
+
+.reverse .skills-track {
+    animation-direction: reverse;
+}
+.skills-marquee:hover .skills-track {
+    animation-play-state: paused;
+}
+
+.skill-item {
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+    padding: 1.2rem 2rem;
+    border: 1px solid rgba(255,255,255,.08);
+    background: rgba(255,255,255,.02);
+    border-radius: 18px;
+    color: rgba(255,255,255,.45);
+    transition: .35s ease;
+    backdrop-filter: blur(10px);
+}
+.skill-item i {
+    font-size: 1.5rem;
+}
+.skill-item:hover {
+    transform: translateY(-8px) scale(1.05);
+    color: white;
+    border-color: rgba(5,170,255,.6);
+    box-shadow:
+        0 0 20px rgba(5,170,255,.25),
+        0 0 40px rgba(5,170,255,.15);
+    background: rgba(5,170,255,.08);
+}
+.skill-item.soft:hover {
+    box-shadow:
+        0 0 20px rgba(200,80,255,.25),
+        0 0 40px rgba(200,80,255,.15);
+    border-color: rgba(200,80,255,.5);
+}
+
+@keyframes marqueeMove {
+    from {
+
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .skills-big-title {
+        font-size: 2.5rem;
+    }
+    .skill-item {
+        padding: 1rem 1.5rem;
+    }
+}
