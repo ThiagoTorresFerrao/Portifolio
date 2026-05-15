@@ -1529,6 +1529,7 @@ html.lenis body {
     -webkit-text-fill-color: transparent;
 }
 .skills-marquee {
+  padding: 1.8rem 0;
     position: relative;
     overflow: hidden;
     mask-image: linear-gradient(
@@ -1599,4 +1600,11 @@ html.lenis body {
     .skill-item {
         padding: 1rem 1.5rem;
     }
+}
+
+.skills.section {
+
+    padding-top: 0rem;
+
+    padding-bottom: 0rem;
 }
