@@ -1644,3 +1644,12 @@ html.lenis body {
 .graph-card {
     margin-top: 1rem;
 }
+
+
+/* ===== TILT CARDS ===== */
+.projects__card {
+    transform-style: preserve-3d;
+    transition:
+        transform .15s ease,
+        box-shadow .25s ease;
+}
