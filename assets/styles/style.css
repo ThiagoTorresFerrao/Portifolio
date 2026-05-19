@@ -1612,7 +1612,7 @@ html.lenis body {
 
 .github-activity {
     background-color: var(--container-color);
-    background-image: url('../assets/images/bg.jpg');
+    background-image: url('../images/bg.jpg');
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
