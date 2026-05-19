@@ -48,32 +48,19 @@ In this portfolio, he presents his main projects, experiences, and professional 
 
 ```text
 /
-├── AllProjects/
-│   ├── allProjects.html
-│   ├── script_allProjects.js
-│   └── style_allProjects.css
-├── Page_under_construction/
-│   ├── Page_under_construction.html
-│   ├── script_puc.js
-│   └── style_puc.css
-├── Portifólio_Thiago_arquivos/
-│   ├── img/
-│   ├── lang.js
-│   ├── remixicon.css
-│   └── style.css
+├── assets/
+│   ├── images/
+│   ├── js/
+│   └── style/
 ├── Pulse_runner/
 │   ├── sounds/
 │   ├── game.js
 │   ├── index.html
 │   └── style.css
 ├── index.html
-├── intro.js
-├── menu.js
-├── pageTransition.js
-├── particles.js
-├── ProjectTilt.js
-├── README.md
-└── smoothScroll.js
+├── Page_under_construction.html
+├── allProjects.html
+└── README.md
 
 ```
 
