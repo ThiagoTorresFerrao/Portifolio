@@ -259,7 +259,7 @@ svg {
 /*=============== HOME ===============*/
 .home {
   background-color: var(--container-color);
-  background-image: url('../assets/images/bg.jpg');
+  background-image: url('../images/bg.jpg');
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -374,7 +374,7 @@ svg {
 /*=============== SKILLS ===============*/
 .skills {
   background-color: var(--container-color);
-  background-image: url('../assets/images/bg.jpg');
+  background-image: url('../images/bg.jpg');
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -454,7 +454,7 @@ svg {
 /*=============== PROJECTS ===============*/
 .projects {
   background-color: var(--container-color);
-  background-image: url('../assets/images/bg.jpg');
+  background-image: url('../images/bg.jpg');
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -1158,7 +1158,7 @@ iframe {
 
 .location {
   background-color: var(--container-color);
-  background-image: url('../assets/images/bg.jpg');
+  background-image: url('../images/bg.jpg');
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -1170,7 +1170,7 @@ iframe {
 #intro {
     position: fixed;
     inset: 0;
-    background: linear-gradient(rgba(0,0,0,.85), rgba(0,0,0,.92)), url('../assets/images/bg.jpg');
+    background: linear-gradient(rgba(0,0,0,.85), rgba(0,0,0,.92)), url('../images/bg.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
