@@ -60,7 +60,6 @@ In this portfolio, he presents his main projects, experiences, and professional 
 │   ├── img/
 │   ├── lang.js
 │   ├── remixicon.css
-│   ├── scrollreveal.min.js
 │   └── style.css
 ├── Pulse_runner/
 │   ├── sounds/
@@ -70,7 +69,11 @@ In this portfolio, he presents his main projects, experiences, and professional 
 ├── index.html
 ├── intro.js
 ├── menu.js
-└── README.md
+├── pageTransition.js
+├── particles.js
+├── ProjectTilt.js
+├── README.md
+└── smoothScroll.js
 
 ```
 
