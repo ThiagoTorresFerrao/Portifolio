@@ -578,11 +578,11 @@ svg {
 /*=============== FOOTER ===============*/
 .footer {
   background-color: var(--container-color);
-  padding-block: 3.5rem 2rem;
+  padding-block: 1.5rem 1rem;
 }
 
 .footer__container {
-  text-align: center;
+  text-align: center; 
 }
 
 .footer__title {
@@ -621,7 +621,7 @@ svg {
 
 .footer__copy {
   font-size: var(--smaller-font-size);
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 /*=============== SCROLL BAR ===============*/
@@ -887,10 +887,6 @@ svg {
 
   .contact__form textarea {
     height: 13rem;
-  }
-
-  .footer {
-    padding-block: 4.5rem 4rem;
   }
 
   .footer__container {
