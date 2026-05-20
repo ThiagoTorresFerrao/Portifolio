@@ -151,7 +151,7 @@ function draw() {
 
   ctx.globalAlpha = 1;
 
-  // chão neon
+  // CHAO NEON
   const gradient = ctx.createLinearGradient(0, 0, canvas.width, 0);
   gradient.addColorStop(0, "#00f0ff");
   gradient.addColorStop(1, "#ff00c8");
@@ -235,7 +235,7 @@ function draw() {
 
     ctx.shadowBlur = 0;
 
-    // COLISÃO
+    // COLISAO
     if (
       !gameOver &&
       player.x + player.radius > obs.x &&
