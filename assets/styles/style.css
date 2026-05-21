@@ -354,11 +354,6 @@ svg {
   text-align: center;
 }
 
-.about__description {
-  margin-bottom: 2rem;
-  padding: 0 2rem;
-}
-
 .about__image {
   justify-self: center;
 }
@@ -829,6 +824,7 @@ svg {
   .about__description {
     margin-bottom: 3rem;
     padding: 0 0;
+    white-space: pre-line;
   }
 
   .skills__container {
@@ -1117,11 +1113,6 @@ iframe {
   margin: 2rem auto;
   border-radius: 12px;
   box-shadow: 0 0 25px rgba(0, 240, 255, 0.3);
-}
-
-/*===== Não ignorar as quebradas de linha do aboutme =======*/
-.about__description {
-  white-space: pre-line;
 }
 
 /*===== MAPA =======*/
