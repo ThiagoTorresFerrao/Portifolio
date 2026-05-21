@@ -1,7 +1,7 @@
 const sr = ScrollReveal({
 
     distance: '80px',
-    duration: 1800,
+    duration: 2000,
     delay: 200,
     reset: false
 
@@ -23,9 +23,9 @@ sr.reveal('.reveal-bottom', {
     origin: 'bottom'
 });
 
-sr.reveal('.services__card', {
+sr.reveal('.services__card, .projects__card', {
 
     origin: 'bottom',
-    interval: 300
+    interval: 400
 
 });
