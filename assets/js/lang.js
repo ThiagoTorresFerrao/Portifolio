@@ -1,6 +1,5 @@
 const translations = {
-
-      // Texto em portugues 
+  // Texto em portugues
   pt: {
     title: "Portifólio | Thiago",
     inicio: "Início",
@@ -10,10 +9,11 @@ const translations = {
     contato: "Contato",
     hello: "Olá, Eu sou o",
     role: "Desenvolvedor Full-stack",
-    description: "Crio aplicações web modernas e escaláveis, com foco em performance, experiência do usuário e qualidade de código, entregando soluções digitais eficientes e bem estruturadas.",
+    description:
+      "Crio aplicações web modernas e escaláveis, com foco em performance, experiência do usuário e qualidade de código, entregando soluções digitais eficientes e bem estruturadas.",
     letsTalk: "Vamos Conversar",
     introMe: "Minha <span>introdução</span>",
-    aboutTitle: "Sobre mim", 
+    aboutTitle: "Sobre mim",
     aboutText: `Olá, eu sou Thiago Torres! Sou desenvolvedor Full Stack com foco em Front-end, atuando na criação de soluções web modernas, eficientes e bem estruturadas.
     
     Sou formado em Análise e Desenvolvimento de Sistemas e possuo sólida experiência com tecnologias como HTML, CSS, JavaScript, React, Node.js e MongoDB.
@@ -25,21 +25,25 @@ const translations = {
     contactMe: "Fale comigo",
     favSkills: "Skills favoritas", // span não está funcionando verificar posteriormente //
     skillsTitle: "Minhas Skills",
-    skillsText: "Veja minhas principais habilidades para desenvolver projetos de forma moderna e eficaz.",
+    skillsText:
+      "Veja minhas principais habilidades para desenvolver projetos de forma moderna e eficaz.",
     frameworksLibs: "Frameworks e \nBibliotecas",
     seproj: "Ver projetos",
     mySer: "Meus serviços", // span não está funcionando verificar posteriormente //
     servicesTitle: "O que eu faço",
     titleserv1: "Desenvolvedor Full-stack",
-    service1: "Desenvolvimento completo de aplicações Web. Utilizando tecnologias modernas e bibliotecas do front-end ao back-end.",
+    service1:
+      "Desenvolvimento completo de aplicações Web. Utilizando tecnologias modernas e bibliotecas do front-end ao back-end.",
     titleserv2: "Resolução de Problemas",
-    service2: "Apto a solucionar bugs, realizar testes e depurar o código para garantir o bom funcionamento das interfaces.",
+    service2:
+      "Apto a solucionar bugs, realizar testes e depurar o código para garantir o bom funcionamento das interfaces.",
     titleserv3: "Frameworks e Bibliotecas",
-    service3: "Tenho conhecimento em desenvolver aplicações consumindo APIs e realizando integrações com serviços externos.",
+    service3:
+      "Tenho conhecimento em desenvolver aplicações consumindo APIs e realizando integrações com serviços externos.",
     myWor: "Meus trabalhos", // span não está funcionando verificar posteriormente //
     projectsTitle: "Projetos recentes",
     projectsText: "Confira alguns dos meus projetos mais recentes:",
-    seeLink:"Ver",
+    seeLink: "Ver",
     project0: "Site Banda de Metal",
     project1: "Réplica do Twitter",
     project2: "Site de Barbearia",
@@ -56,9 +60,9 @@ const translations = {
     qrcodemsg: "Escaneie o QR Code para me chamar no WhatsApp",
     footerRole: "Desenvolvedor Full-stack",
     rights: "Todos os direitos reservados © 2026",
-    game: "Mini Game Interativo"
+    game: "Mini Game Interativo",
   },
-      // Texto em inglês
+  // Texto em inglês
   en: {
     title: "Portfolio | Thiago",
     inicio: "Home",
@@ -68,7 +72,8 @@ const translations = {
     contato: "Contact",
     hello: "Hello, I am",
     role: "Full-stack Developer",
-    description: "I build modern and scalable web applications focused on performance, user experience, and code quality, delivering efficient and well-structured digital solutions.",
+    description:
+      "I build modern and scalable web applications focused on performance, user experience, and code quality, delivering efficient and well-structured digital solutions.",
     letsTalk: "Let's Talk",
     introMe: "My <span>introduction</span>",
     aboutTitle: "About Me",
@@ -81,23 +86,27 @@ const translations = {
     
     Beyond the web stack, I have been expanding my knowledge in Artificial Intelligence, applying concepts in practical projects such as automation, chatbots, and intelligent features that enhance web applications.`,
     contactMe: "Contact Me",
-    favSkills: "Favorite skills",    // span não está funcionando verificar posteriormente //
+    favSkills: "Favorite skills", // span não está funcionando verificar posteriormente //
     skillsTitle: "My Skills",
-    skillsText: "Check out my main skills to develop modern and efficient projects.",
+    skillsText:
+      "Check out my main skills to develop modern and efficient projects.",
     frameworksLibs: "Frameworks and \nLibraries",
     seproj: "See projects",
     mySer: "My services", // span não está funcionando verificar posteriormente //
     servicesTitle: "What I Do",
     titleserv1: "Full-stack Developer",
-    service1: "Full development of web applications. Utilizing modern technologies and libraries from front-end to back-end.",
+    service1:
+      "Full development of web applications. Utilizing modern technologies and libraries from front-end to back-end.",
     titleserv2: "Problem solving",
-    service2: "Skilled in fixing bugs, performing tests, and debugging code to ensure the proper functioning of interfaces.",
+    service2:
+      "Skilled in fixing bugs, performing tests, and debugging code to ensure the proper functioning of interfaces.",
     titleserv3: "Frameworks and Libraries",
-    service3: "I have experience developing applications that consume APIs and integrate with external services.",
+    service3:
+      "I have experience developing applications that consume APIs and integrate with external services.",
     myWor: "My Projects", // span não está funcionando verificar posteriormente //
     projectsTitle: "Recent Projects",
     projectsText: "Check out some of my latest projects:",
-    seeLink:"Look",
+    seeLink: "Look",
     project0: "Metal band Web Site",
     project1: "Twitter Clone",
     project2: "Barbershop Website",
@@ -114,32 +123,32 @@ const translations = {
     qrcodemsg: "Scan the QR Code to call me on WhatsApp",
     footerRole: "Full-stack Developer",
     rights: "All rights reserved © 2026",
-    game: "Interactive Mini Game"
-  }
+    game: "Interactive Mini Game",
+  },
 };
 
 function setLanguage(lang) {
-  document.querySelectorAll('[data-translate]').forEach(el => {
-    const key = el.getAttribute('data-translate');
+  document.querySelectorAll("[data-translate]").forEach((el) => {
+    const key = el.getAttribute("data-translate");
     if (translations[lang] && translations[lang][key]) {
-      if(key === 'introMe') {
-        el.innerHTML = translations[lang][key];  // usar innerHTML aqui para preservar <span>
+      if (key === "introMe") {
+        el.innerHTML = translations[lang][key]; // usar innerHTML aqui para preservar <span>
       } else {
         el.textContent = translations[lang][key];
       }
     }
   });
 
-  document.querySelectorAll('[data-translate-placeholder]').forEach(el => {
-    const key = el.getAttribute('data-translate-placeholder');
+  document.querySelectorAll("[data-translate-placeholder]").forEach((el) => {
+    const key = el.getAttribute("data-translate-placeholder");
     if (translations[lang] && translations[lang][key]) {
       el.placeholder = translations[lang][key];
     }
   });
-    // Atualiza o titulo da aba
+  // Atualiza o titulo da aba
   document.title = translations[lang].title;
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  setLanguage('pt'); // define idioma padrão ao carregar página
+  setLanguage("pt"); // define idioma padrão ao carregar página
 });
