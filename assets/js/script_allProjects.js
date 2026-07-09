@@ -1,10 +1,10 @@
-window.addEventListener('DOMContentLoaded', () => {
+window.addEventListener("DOMContentLoaded", () => {
   // Anima o título
   gsap.to(".titulo", {
     duration: 1,
     opacity: 1,
     y: 0,
-    ease: "power2.out"
+    ease: "power2.out",
   });
 
   // Anima os cards
@@ -12,30 +12,32 @@ window.addEventListener('DOMContentLoaded', () => {
   const totalCards = cards.length;
   const delayEntreCards = 0.2;
 
-  gsap.fromTo(".project-card",
+  gsap.fromTo(
+    ".project-card",
     { y: 50, opacity: 0 },
     {
       y: 0,
       opacity: 1,
       duration: 1,
       stagger: delayEntreCards,
-      ease: "power2.out"
-    }
+      ease: "power2.out",
+    },
   );
 
   // Calcula quando o botão deve aparecer
   const delayBotao = totalCards * delayEntreCards;
 
   // Anima o botão de voltar depois dos cards
-  gsap.fromTo(".voltar-btn",
+  gsap.fromTo(
+    ".voltar-btn",
     { y: 50, opacity: 0 },
     {
       y: 0,
       opacity: 1,
       delay: delayBotao,
       duration: 1,
-      ease: "power2.out"
-    }
+      ease: "power2.out",
+    },
   );
 
   // Função do botão para redirecionar

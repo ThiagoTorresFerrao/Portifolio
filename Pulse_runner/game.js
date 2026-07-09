@@ -2,7 +2,7 @@ let obstacleTimer = 0;
 let nextObstacleTime = getRandomTime();
 
 function getRandomTime() {
-  return Math.random() * 1000 + 800; 
+  return Math.random() * 1000 + 800;
   // entre 800ms e 1800ms (ajuste como quiser)
 }
 
@@ -30,7 +30,7 @@ let best = localStorage.getItem("bestScore") || 0;
 document.getElementById("best").innerText =
   "Best: " + String(best).padStart(5, "0");
 
-  // SONS
+// SONS
 const audio = new Audio("sound.mp3");
 audio.loop = true;
 const jumpSound = new Audio("sounds/jump.mp3");
@@ -44,7 +44,7 @@ const player = {
   velocityY: 0,
   gravity: 0.6,
   jump: -12,
-  onGround: true
+  onGround: true,
 };
 
 resizeCanvas();
@@ -60,7 +60,7 @@ let stars = Array.from({ length: 100 }, () => ({
   x: Math.random() * canvas.width,
   y: Math.random() * canvas.height,
   size: Math.random() * 2,
-  speed: Math.random() * 1 + 0.5 // 👈 velocidade diferente pra cada estrela
+  speed: Math.random() * 1 + 0.5, // 👈 velocidade diferente pra cada estrela
 }));
 
 function startGame() {
@@ -87,7 +87,7 @@ function jump() {
         y: player.y,
         vx: Math.random() * -3,
         vy: Math.random() * -3,
-        life: 30
+        life: 30,
       });
     }
   }
@@ -100,13 +100,13 @@ function explode() {
       y: player.y,
       vx: (Math.random() - 0.5) * 10,
       vy: (Math.random() - 0.5) * 10,
-      life: 60
+      life: 60,
     });
   }
 }
 
 // EVENTOS
-window.addEventListener("keydown", e => {
+window.addEventListener("keydown", (e) => {
   if (e.code === "Space") {
     e.preventDefault(); // 🚫 trava o scroll
 
@@ -132,21 +132,20 @@ function draw() {
   // estrelas
   ctx.fillStyle = "white";
 
-  stars.forEach(s => {
+  stars.forEach((s) => {
+    // 👇 movimento pra esquerda
+    if (running && !gameOver) {
+      s.x -= s.speed * (gameSpeed * 0.2);
+    }
 
-  // 👇 movimento pra esquerda
-  if (running && !gameOver) {
-    s.x -= s.speed * (gameSpeed * 0.2);
-  }
+    // 👇 quando sair da tela, volta pro lado direito
+    if (s.x < 0) {
+      s.x = canvas.width;
+      s.y = Math.random() * canvas.height;
+    }
 
-  // 👇 quando sair da tela, volta pro lado direito
-  if (s.x < 0) {
-    s.x = canvas.width;
-    s.y = Math.random() * canvas.height;
-  }
-
-  ctx.globalAlpha = Math.random();
-  ctx.fillRect(s.x, s.y, s.size, s.size);
+    ctx.globalAlpha = Math.random();
+    ctx.fillRect(s.x, s.y, s.size, s.size);
   });
 
   ctx.globalAlpha = 1;
@@ -262,28 +261,30 @@ function draw() {
       obstacles.splice(i, 1);
       score++;
       document.getElementById("score").innerText =
-      "Score: " + String(score).padStart(5, "0") +
-      " | Speed: " + gameSpeed.toFixed(1);
+        "Score: " +
+        String(score).padStart(5, "0") +
+        " | Speed: " +
+        gameSpeed.toFixed(1);
     }
   });
 
   requestAnimationFrame(draw);
 
   if (running && !gameOver) {
-  obstacleTimer += 16; // ~ tempo por frame (16ms ≈ 60fps)
+    obstacleTimer += 16; // ~ tempo por frame (16ms ≈ 60fps)
 
-  if (obstacleTimer > nextObstacleTime) {
-    obstacles.push({
-      x: canvas.width,
-      y: ground - 30,
-      size: Math.random() * 20 + 20, // 👈 tamanho variável
-      type: Math.random() > 0.5 ? "square" : "triangle"
-    });
+    if (obstacleTimer > nextObstacleTime) {
+      obstacles.push({
+        x: canvas.width,
+        y: ground - 30,
+        size: Math.random() * 20 + 20, // 👈 tamanho variável
+        type: Math.random() > 0.5 ? "square" : "triangle",
+      });
 
-    obstacleTimer = 0;
-    nextObstacleTime = getRandomTime(); // novo tempo aleatório
+      obstacleTimer = 0;
+      nextObstacleTime = getRandomTime(); // novo tempo aleatório
+    }
   }
-}
 }
 
 draw();
